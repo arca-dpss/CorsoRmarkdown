@@ -20,10 +20,11 @@ In questa pagina sono presenti tutti i link a materiale necessario per il crso e
 
 Il corso si svolgerà a Padova, nell'aula 2A del CLA (Centro Linguistico di Ateneo), dal 14 al 17 giugno:
 
-- 14 giugno: 13:00-18:00
-- 15 giugno: 09:00-14:00
-- 16 giugno: 09:00-14:00
-- 17 giugno: 09:00-14:00 
+- 6 marzo: 13:00-17:00
+- 7 marzo: 13:00-17:00
+- 8 marzo: 13:00-17:00
+- 9 marzo: 13:00-17:00
+- 10 marzo: 13:00-17:00
 
 
 Alla fine del corso chiederò a ogni studente di produrre una piccola presentazione in `RMarkdown` e un file di report sul dataset usato durante i giorni di lezione. Questi file li preparemo insieme durante il corso stesso, dove infatti le ore di lezione frontale sono intervallate da esercitazioni pratiche.
