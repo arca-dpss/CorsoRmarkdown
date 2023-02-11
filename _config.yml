@@ -1,1 +1,6 @@
-theme: jekyll-theme-cayman
+remote_theme: arca-dpss/ARCA-ghpages
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: ARCA
+description: Repository del corso ARCA Corso RMarkdown
+show_downloads: [true]
