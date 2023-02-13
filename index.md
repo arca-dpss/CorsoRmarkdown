@@ -18,7 +18,7 @@ In questa pagina sono presenti tutti i link a materiale necessario per il crso e
 
 ## Il corso
 
-Il corso si svolgerà a Padova, nell'aula 2A del CLA (Centro Linguistico di Ateneo), dal 14 al 17 giugno:
+Il corso si svolgerà a Padova, nell'aula 2A del CLA (Centro Linguistico di Ateneo), dal 6 al 10 marzo:
 
 - 6 marzo: 13:00-17:00
 - 7 marzo: 13:00-17:00
