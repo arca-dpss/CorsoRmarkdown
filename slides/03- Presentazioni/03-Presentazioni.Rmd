@@ -376,11 +376,9 @@ options = list(height = 400)
 
 - `ioslides`: <font size="3">sono quelle che vi farò vedere io, sono le slide in `html` più semplici da ottenere e che permettono un risultato accettabile con relativamente poco sforzo</font>
 - `slidify`: <font size="3">sempre in `html`, ma sono leggermente più complesse e il risultato non è carino come `ioslides`</font>
-- `beamer_presentation`: <font size="3">per ottenere `pdf`. Le vedremo nella lezione [03bis-LaTeXbis](https://ottaviae.github.io/CorsoRmarkdown/slides/03bis%20-%20LaTeX%20Bis/03bis-LaTeX-bis.pdf)</font>
+- `beamer_presentation`: <font size="3">per ottenere `pdf`. Le vedremo nella lezione [04-LaTeX-knitr](https://ottaviae.github.io/CorsoRmarkdown/slides/03bis%20-%20LaTeX%20Bis/03bis-LaTeX-bis.pdf)</font>
 
-Advanced: 
-
-- [xaringam](https://slides.yihui.org/xaringan/#1)
+- `xaringam`: <font size="3">sempre in html, ma mooooolto più carine [05-xaringam](https://ottaviae.github.io/CorsoRmarkdown/slides/03bis%20-%20LaTeX%20Bis/03bis-LaTeX-bis.pdf)</font>
 
 
 N.B.: se non modificate troppo il template originale, si può saltellare allegramente tra `ioslides` e `beamer_presentation` (quindi tra `html` e `pdf`)
@@ -388,6 +386,13 @@ N.B.: se non modificate troppo il template originale, si può saltellare allegra
 # Nuovo documento 
 
 ## 
+
+<br>
+
+<br>
+
+<br>
+
 File $\rightarrow$ New File: 
 
 ```{r, out.width="50%", echo=FALSE}
@@ -418,8 +423,8 @@ Ad esempio, se si vogliono le slide "larghe" (come quelle che vi sto facendo ved
 ```{r}
 output: 
   ioslides_presentation:
-  logo: percorso-del-logo/logo.png
-  widescreen: yes
+      logo: percorso-del-logo/logo.png
+      widescreen: yes
 ```
 
 ## Sezioni e titoli 
