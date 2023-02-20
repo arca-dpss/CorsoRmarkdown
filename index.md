@@ -7,7 +7,7 @@ title: Corso `RMarkdown`
 
 Benvenuti e benvenute! 
 
-In questa pagina sono presenti tutti i link a materiale necessario per il crso e a qualche risorsa in più per saziare tutti gli appetiti di conoscenza. 
+In questa pagina sono presenti tutti i link e il materiale necessario per il corso e a qualche risorsa in più per saziare tutti gli appetiti di conoscenza. 
 
 
 - [Getting started](Istruzioni-base.html): il punto da cui partire. Una piccola guida che vi spiega passo passo come installare `RMarkdown`
