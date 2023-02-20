@@ -31,13 +31,14 @@ Alla fine del corso chiederò a ogni studente di produrre una piccola presentazi
 
 Ma partiamo dall'inizio: 
 
-- Introduzione: Cos'è `RMarkdown`, perché lo usiamo, `R` project. [HTML](slides/00 - Introduzione/00-Introduzione.html) [PDF](slides/00 - Introduzione/00-Introduzione.pdf)
-- Baby steps: Prendiamo confidenza con `RMarkdown` [HTML](slides/01 - Baby Steps/01-Baby-Steps.html) [PDF](slides/01 - Baby Steps/01-Baby-Steps.pdf)
-- Chunk di codice: L'essenza di `RMarkdown` va conosciuta nel dettaglio [HTML](slides/02 - Chunk di codice/02-Chunk-di-Codice.html) [PDF](slides/02 - Chunk di codice/02-Chunk-di-Codice.pdf)
-- Presentazioni in `RMarkdown` [HTML](slides/04 - Presentazioni/04-Presentazioni.html) [PDF](slides/04 - Presentazioni/04-Presentazioni.pdf)
-- `knitr` e Latex: Un rapporto che va conosciuto [PDF](slides/04 - LaTeX-knitr/03-LaTeX.pdf)
-- Presentazioni like a pro: `xaringan` [HTML](slides/05 - xaringan/05-xaringam.html)
-
+00. Introduzione: Cos'è `RMarkdown`, perché lo usiamo, `R` project. [HTML](slides/00 - Introduzione/00-Introduzione.html) [PDF](slides/00 - Introduzione/00-Introduzione.pdf)
+01. Baby steps: Prendiamo confidenza con `RMarkdown` [HTML](slides/01 - Baby Steps/01-Baby-Steps.html) [PDF](slides/01 - Baby Steps/01-Baby-Steps.pdf)
+02. Chunk di codice: L'essenza di `RMarkdown` va conosciuta nel dettaglio [HTML](slides/02 - Chunk di codice/02-Chunk-di-Codice.html) [PDF](slides/02 - Chunk di codice/02-Chunk-di-Codice.pdf)
+03. Presentazioni in `RMarkdown` [HTML](slides/03- Presentazioni/03-Presentazioni.html) [PDF](slides/03- Presentazioni/03-Presentazioni.pdf)
+04. LaTeX e `knitr`: [PDF](slides/04 - LaTeX-knitr/04-LaTeX-knitr.pdf)
+05. Presentazioni like a pro: `xaringan` [HTML](slides/05 - xaringan/05-xaringam.html) [PDF](slides/05 - xaringan/05-xaringam.pdf)
+06. The future is `quarto` [HTML](slides/06 - quarto/06-quarto.html) [PDF](slides/06 - quarto/06-quarto.pdf)
+07. LaTeX e `Sweave` [PDF](slides/07 - LaTeX-Sweave/07-LaTeX-Sweave.pdf)
 
 ## Materiale utile
 
