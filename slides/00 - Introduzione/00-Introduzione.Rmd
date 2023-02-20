@@ -9,7 +9,7 @@ output:
     widescreen: yes
 editor_options:
   chunk_output_type: console
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 
 ```{r setup, include=FALSE}
@@ -156,7 +156,7 @@ ggplot(iris,
 Permette la riproducibilità dei dati e delle analisi svolte sugli stessi tenendo in unico file report, dati, codici e risultati
 
 
-## Cosa faremo in questo corso
+## Cosa faremo in questo corso {.small}
 
 - Baby steps: Comandi basici di `RMarkdown` 
 
@@ -168,7 +168,8 @@ Permette la riproducibilità dei dati e delle analisi svolte sugli stessi tenend
 
 - LaTeX e `RMarkdown` insieme
 
-- Piccola esercitazione finale
+- Piccoli assaggi di `xaringan` e `quarto`
+
 
 ## Piccola esercitazione finale
 
@@ -186,12 +187,16 @@ In [questa cartella](https://drive.google.com/drive/folders/19F1fhDwih04MeyKP_E4
 
 ## Cosa non faremo in questo corso
 
+<br>
+
+<br>
+
 
 [<img width="10%" height="10%" src="img/pagedown.png">](https://pagedown.rbind.io/): Rende  più facile il rendering in PDF
 
 [<img width="10%" height="10%" src="img/bookdown.png">](https://bookdown.org/): Come sopra
 
-[xaringam](https://slides.yihui.org/xaringan/#1): Per produrre presentazioni più belle 
+
 
 
 
@@ -231,6 +236,10 @@ Dove lo si vuole fare e come lo si vuole chiamare
 # Con cosa lavoriamo?
 
 ## I dataset di `R` {.build}
+
+<br>
+
+<br>
 
 <div>
 Useremo dei datasets interni ad `R` per fare qualche analisi e qualche grafico (tranquilli, vi darò io i codici `r emoji("beaming face with smiling eyes")`)
