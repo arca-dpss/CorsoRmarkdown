@@ -939,7 +939,9 @@ Ad esempio [<img width="10%" height="10%" src="img/AppLogo.png">](https://fisppa
 Come ogni pacchetto di `R`:
 
     install.packages("shiny")
-    
+
+A [questa pagina](https://ottaviae.github.io/RcouRse/shiny/shiny.html#1) trovate un mio mini corso introduttivo su shiny!
+
 Ogni shiny app ha due componenti principali: 
 
 </div>
@@ -973,7 +975,7 @@ Lo user non sa neanche che esiste
 Aggiungete allo YAML: `runtime: shiny` <font size="3"> su una nuova riga </font> e vedrete che `knit` viene sostituto da `Run Presentation`
 
 
-```{r echo = FALSE, eval=TRUE}
+```{r echo = FALSE, eval=T}
 shiny::shinyApp(
  ui = fluidPage(
   sidebarLayout(
