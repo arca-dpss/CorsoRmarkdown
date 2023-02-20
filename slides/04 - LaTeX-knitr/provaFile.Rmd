@@ -45,6 +45,7 @@ testo
 \end{column}
 
 \begin{column}{.50\textwidth}
+\footnotesize
 \begin{figure}
 \centering
 ```{r}
@@ -57,3 +58,28 @@ knitr::include_graphics("img/figure1.png")
 
 \end{column}
 \end{columns}
+
+## Altra possibilità per le colonne
+
+::: columns
+
+:::: column
+
+```{r}
+plot(cars)
+```
+
+
+::::
+
+:::: column 
+
+```{r}
+head(cars)
+```
+
+
+::::
+
+
+:::
