@@ -18,13 +18,13 @@ In questa pagina sono presenti tutti i link e il materiale necessario per il cor
 
 ## Il corso
 
-Il corso si svolgerà a Padova, nell'aula 2A del CLA (Centro Linguistico di Ateneo), dal 6 al 10 marzo:
+Il corso si svolgerà a Padova dal 6 al 10 marzo:
 
-- 6 marzo: 13:00-17:00
-- 7 marzo: 13:00-17:00
-- 8 marzo: 13:00-17:00
-- 9 marzo: 13:00-17:00
-- 10 marzo: 13:00-17:00
+- 6 marzo: 13:00-17:00, LAB 2A del CLA
+- 7 marzo: 13:00-17:00, LAB 2A del CLA
+- 8 marzo: 13:00-17:00, DPSS2 (primo piano Psico1 davanti a caffetteria)
+- 9 marzo: 14:00-18:00, Sala Riunioni 5 piano del CLA
+- 10 marzo: 13:00-17:00, LAB 2A del CLA
 
 
 Alla fine del corso chiederò a ogni studente di produrre una piccola presentazione in `RMarkdown` e un file di report sul dataset usato durante i giorni di lezione. Questi file li preparemo insieme durante il corso stesso, dove infatti le ore di lezione frontale sono intervallate da esercitazioni pratiche.
@@ -50,7 +50,7 @@ Ma partiamo dall'inizio:
 
 - [Compilatore automatico di tabelle `RMarkdwon`](https://www.tablesgenerator.com/markdown_tables)
 
-- [Stile presentazioni di LaTeX](https://deic.uab.cat/~iblanes/beamer_gallery/)
+- [Stile presentazioni di LaTeX](https://mpetroff.net/files/beamer-theme-matrix/)
 
 - [Generatore di tabelle in LaTeX](https://www.tablesgenerator.com/)
 
