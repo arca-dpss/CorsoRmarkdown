@@ -36,7 +36,7 @@ Ma partiamo dall'inizio:
 02. Chunk di codice: L'essenza di `RMarkdown` va conosciuta nel dettaglio [HTML](slides/02 - Chunk di codice/02-Chunk-di-Codice.html) [PDF](slides/02 - Chunk di codice/02-Chunk-di-Codice.pdf)
 03. Presentazioni in `RMarkdown` [HTML](slides/03- Presentazioni/03-Presentazioni.html) [PDF](slides/03- Presentazioni/03-Presentazioni.pdf)
 04. LaTeX e `knitr`: [PDF](slides/04 - LaTeX-knitr/04-LaTeX-knitr.pdf)
-05. Presentazioni like a pro: `xaringam` [HTML](slides/05 - xaringam/05-xaringam.html) [PDF](slides/05 - xaringam/05-xaringam.pdf)
+05. Presentazioni like a pro: `xaringam` [HTML](slides/05 - xaringan/05-xaringan.html) [PDF](slides/05 - xaringan/05-xaringan.pdf)
 06. The future is `quarto` [HTML](slides/06 - quarto/06-quarto.html) [PDF](slides/06 - quarto/06-quarto.pdf)
 07. LaTeX e `Sweave` [PDF](slides/07 - LaTeX-Sweave/07-LaTeX-Sweave.pdf)
 
