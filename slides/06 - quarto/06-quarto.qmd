@@ -9,6 +9,12 @@ format:
     embed-resources: true
     theme: theme_arca.scss
     logo: /img/arca_logo.png
+editor: source
+execute: 
+  eval: true
+  echo: true
+  warning: false
+  fig-align: center
 ---
 
 ## Quarto {.build}
@@ -44,6 +50,8 @@ Essendo uno strumento molto nuovo, lo conosco ancora poco e vedermo solo alcuni 
 
 ## Cosa sa fare?
 
+<br>
+
 Tutto quello che sa fare RMarkdown... e oltre
 
 - Presentazioni in HTML 
@@ -52,25 +60,71 @@ Tutto quello che sa fare RMarkdown... e oltre
 
 - Documenti in HTML con molte features in più 
 
-<br>
+
 
 <br>
 
-<font (Le slide di questa lezione sono fatte in quarto. Ci sto ancora prendendo la mano)
+<font size = "3">(Le slide di questa lezione sono fatte in quarto. Ci sto ancora prendendo la mano)</font>
 
-## Bullets
 
-When you click the **Render** button a document will be generated that includes:
 
--   Content authored with markdown
--   Output from executable code
+## I comandi 
 
-## Code
+<br>
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+:::: {.columns}
+
+
+::: {.column width="50%"}
+<span style="color:#9B0014">RMarkdown</span>
+
+- Elenco puntato/Numerato
+
+<br>
+
+- Cambiare colore alle parole 
+
+<br>
+
+- Tabelle 
+
+<br>
+
+- Chunk di codice
+:::
+
+::: {.column width="50%"}
+<span style="color:#9B0014">Quarto</span>
+
+- Elenco puntato/Numerato
+
+<br>
+
+- Cambiare colore alle parole 
+
+<br>
+
+- Abbastanza  
+
+<br> 
+
+- Abbastanza
+:::
+
+::::
+
+## Nuovo documento
+
+File $\rightarrow$ New File $\rightarrow$ Quarto document: 
+
 
 ```{r}
-1 + 1
+#| echo: false
+#| fig-cap: "Nuovo documento quarto"
+#| fig-cap-location: bottom
+#| fig-width: 120
+knitr::include_graphics("img/new_quarto.png")
+
 ```
 
 
