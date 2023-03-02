@@ -1,0 +1,76 @@
+---
+title: "06 - quarto"
+author: "Ottavia M. Epifania"
+institute: "Corsi ARCA"
+format: 
+  revealjs: 
+    slide-number: true
+    show-slide-number: all
+    embed-resources: true
+    theme: theme_arca.scss
+    logo: /img/arca_logo.png
+---
+
+## Quarto {.build}
+<br>
+
+<br>
+
+<br>
+
+
+[Quarto](https://quarto.org/) è il "nuovo" strumento di integrazione codice/analisi/scrittura di `R`Studio
+
+In realtà funziona anche su Python, Julia, Jupyter
+
+Segue molto la logica di RMarkdown e Markdown in generale.... ma va oltre!
+
+. . . 
+
+<br>
+
+
+
+<div text-align="center">
+
+DISCLAIMER
+
+</div>
+
+<br>
+
+Essendo uno strumento molto nuovo, lo conosco ancora poco e vedermo solo alcuni aspetti interessanti (che so usare con sicurezza)
+
+
+## Cosa sa fare?
+
+Tutto quello che sa fare RMarkdown... e oltre
+
+- Presentazioni in HTML 
+
+- Presentazioni interattive in HTML (con shiny)
+
+- Documenti in HTML con molte features in più 
+
+<br>
+
+<br>
+
+<font (Le slide di questa lezione sono fatte in quarto. Ci sto ancora prendendo la mano)
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+
