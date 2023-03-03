@@ -9,6 +9,7 @@ output:
     widescreen: yes
     highlight: haddock
 knit: pagedown::chrome_print
+lang: it
 ---
 
 <style>
@@ -83,11 +84,13 @@ include_graphics("img/chunk-vuoto.png")
 
 ## Il file di default
 
-```{r, out.width="80%"}
+
+
+```{r fig-chunk, out.width="80%", fig.cap="Il chunk"}
 include_graphics("img/chunk.png")
 ```
 
-Tutte le opzioni che si vogliono dare al chunk (e.g., come mostrare i risultati, come mostrare le figure, se mostrare o meno le figure ecc.) vanno separate dalla virgola e scritte a mano
+Tutte le opzioni che si vogliono dare al chunk (e.g., come mostrare i risultati, come mostrare le figure, se mostrare o meno le figure ecc.) vanno separate dalla virgola e scritte a mano 
 
 ## Oppure 
 
