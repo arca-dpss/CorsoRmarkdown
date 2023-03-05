@@ -1,10 +1,11 @@
 ---
 title: "02 - Chunk di codice"
+subtitle: "Corsi ARCA"
 author: "Ottavia M. Epifania"
 date: ''
 output: 
   ioslides_presentation: 
-    css: "C:/Users/huawei/OneDrive/Documenti/GitHub/CorsoRmarkdown/arca.css"
+    css: "arca.css"
     logo: C:/Users/huawei/OneDrive/Documenti/GitHub/CorsoRmarkdown/man/arca_logo.svg
     widescreen: yes
     highlight: haddock
@@ -100,9 +101,10 @@ Oppure si selezionano le opzioni base desiderate dal menu che appare cliccando s
 include_graphics("img/rotella.png")
 ```
 
+<font size = "4">
 A [questa pagina](https://yihui.org/knitr/options/) è disponibile una lista esaustiva degli argomenti dei chunk di codice
 
-<font size="3">Stessa cosa ma più schematica disponibile  [qui](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.224317531.1994910762.1649682827-1292953261.1617471531)</font>
+Stessa cosa ma più schematica disponibile  [qui](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.224317531.1994910762.1649682827-1292953261.1617471531)</font>
 
 ## Setup chunk {.build}
 
@@ -305,7 +307,7 @@ rock
 rock
 ```
 
-Ricodarte che una delle righe che volete mostrate è "mangiata" dai nomi delle colonne
+Ricodate che una delle righe che volete mostrate è "mangiata" dai nomi delle colonne
 
 ## Your turn!
 
