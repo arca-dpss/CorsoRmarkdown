@@ -3,7 +3,7 @@ title: "04-LaTeX-`knitr`"
 author: | 
   | Ottavia M. Epifania
   | University of Padova
-date: 'Corso `RMarkdown`'
+date: 'Corsi `ARCA`'
 institute: "ottavia.epifania@unipd.it"
 output: 
   beamer_presentation: 
@@ -28,11 +28,15 @@ header-includes:
     - \newcommand\Factor{1.2}
     - \setbeamerfont{subtitle}{size=\large, series=\bfseries}
     - \setbeamersize{text margin left=5mm,text margin right=5mm} 
-    - \definecolor{template}{RGB}{54, 114, 89}
+    - \definecolor{template}{RGB}{155, 0, 20}
+    - \definecolor{back}{RGB}{252, 252, 252}
     - \setbeamercolor{frametitle}{bg=white}
     - \setbeamertemplate{frametitle}[default][center]
+    - \setbeamercolor{frametitle}{bg=back}
     - \AtBeginSection{\frame{\sectionpage}}
     - \setbeamercolor{section name}{fg=white}
+    - \setbeamercolor{title}{fg=template}
+    - \setbeamercolor{section title}{fg=template}
 ---
 
 ```{r setup, include=FALSE}
