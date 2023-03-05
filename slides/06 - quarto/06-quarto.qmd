@@ -43,6 +43,9 @@ code {
   line-height: 1.2;
 }
 
+body {
+  line-height: 2.2;
+}
 
 output.r {
   font-size: 22pt;
@@ -103,7 +106,6 @@ Tutto quello che sa fare RMarkdown... e oltre
 
 ## I comandi 
 
-<br>
 
 :::: {.columns}
 
@@ -119,11 +121,19 @@ Tutto quello che sa fare RMarkdown... e oltre
 
 <br>
 
+- Link 
+
+<br>
+
 - Tabelle 
 
 <br>
 
 - Chunk di codice
+
+<br>
+
+- Immagini
 :::
 
 ::: {.column width="50%"}
@@ -137,9 +147,17 @@ Tutto quello che sa fare RMarkdown... e oltre
 
 <br>
 
+- Link
+
+<br>
+
 - Abbastanza  
 
 <br> 
+
+- Abbastanza
+
+<br>
 
 - Abbastanza
 :::
@@ -296,17 +314,16 @@ Si creano sempre o cliccando sulla loro icona in alto a destra o con la combo di
 
 I comandi sui chunk sono gli stessi (`echo`, `eval`, `message` ecc.) ma vengono passati in modo diverso attraverso il tag: `#| ` scritto direttamente all'interno del chunk.
 
-````
-```{r}`r ''`
-#| echo: true
-#| eval: true
-#| comment: "=)"
-1 + 1
-```
-````
+<!-- ```` -->
+<!-- ```{r}`r ''` -->
+<!-- #| echo: true -->
+<!-- #| eval: true -->
+<!-- #| comment: "=)" -->
+<!-- 1 + 1 -->
+<!-- ``` -->
+<!-- ```` -->
 
 ```{r}
-#| echo: true
 #| eval: true
 #| comment: "=)"
 
@@ -316,6 +333,9 @@ I comandi sui chunk sono gli stessi (`echo`, `eval`, `message` ecc.) ma vengono 
 ## Importare immagini: Chunk di codice 
 
 ````
+
+Il quadro di Pellizza da Volpedo in @fig-prima
+
 ```{r}`r ''`
 #| fig-cap: "La mia immagine"
 #| fig-cap-location: top
@@ -324,10 +344,9 @@ I comandi sui chunk sono gli stessi (`echo`, `eval`, `message` ecc.) ma vengono 
 #| fig-align: center
 knitr::include_graphics("img/quartoStato.jpg")
 ```
-
-Il quadro di Pellizza da Volpedo in @fig-prima
-
 ````
+. . .
+
 <font size="4">Il quadro di Pellizza da Volpedo in @fig-prima</font>
 
 ```{r}
@@ -351,14 +370,14 @@ knitr::include_graphics("img/quartoStato.jpg")
 Si possono aggiungere le opzioni: 
 
 ````
-![Caption della figura](percorso-alla-figura.png){width="40%", fig-align="center", #fig-label}
+![Caption della figura](percorso-alla-figura.png){#fig-label}
 
 In @fig-label c'è una figura
 ````
 
 In @fig-psicostat c'è il logo di Psicostat
 
-![PsicoStat](img/psicostat.png){#fig-psicostat}{fig-align="center"}
+![PsicoStat](img/psicostat.png){#fig-psicostat}
 
 
 
@@ -366,9 +385,8 @@ In @fig-psicostat c'è il logo di Psicostat
 ## I grafici 
 ````
 ```{r}`r ''`
-#| echo: false
 #| fig-cap: "Il mio grafico"
-#| fig-cap-location: margin
+#| fig-cap-location: top
 #| out-width: 50%
 #| fig-align: center
 #| label: fig-grafico
@@ -388,7 +406,7 @@ In @fig-grafico c'è un grafico
 ```{r}
 #| echo: false
 #| fig-cap: "Il mio grafico"
-#| fig-cap-location: margin
+#| fig-cap-location: top
 #| out-width: 50%
 #| fig-align: center
 #| label: fig-grafico
@@ -410,11 +428,9 @@ ggplot(rock,
 
 - Impostate il toc a destra e cambiate il titolo 
 
-- Inserite un'immagine allineata a destra: 
-
-  - Chunk di codice
+- Inserite un'immagine allineata a destra con la sua caption (Chunk di codice)
   
-  - Markdown
+- Inserite un'immagine con la sua caption e un link al suo interno (Markdown)
 
 - Inserite un grafico del vostro dataset con un crossref nel testo
 
@@ -488,6 +504,17 @@ head(cars)
 
 ## "Griglie"
 
+```{r}
+#| echo: false
+#| fig-align: center
+#| out-width: 120%
+
+knitr::include_graphics("img/grid.png")
+```
+
+
+## "Griglie": Codice
+
 Permettono di gestire lo spazio come le colonne 
 
 Assume che la lunghezza totale della riga sia 12 e permette di dividere lo spazio di conseguenza
@@ -502,25 +529,13 @@ Prima colonna più stretta della seconda
 
 ::: {.g-col-8}
 
-```{r echo =T, eval = F}
-ggplot(rock, 
-       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
-  theme_light() + theme(legend.position = "none") 
-```
-
+Colonna più larga
 
 :::
 
 :::
 ````
 
-
-```{r}
-#|echo: false
-
-knitr::include_graphics("img/grid.png")
-
-```
 
 
 ## tabset 
@@ -565,28 +580,21 @@ Descrizione del mio dataset
 
 ## I dati
 
-```{r}
-kableExtra::kable(head(rock))
-```
+
+Primo tabset con una tabella contenente il dataset
+
 
 ## Il grafico
 
-
-```{r}
-#| echo: false
-#| out-width: "50%"
-#| fig-align: center
-library(ggplot2)
-ggplot(rock, 
-       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
-  theme_light() + theme(legend.position = "none") 
-```
+Terzo tabset con il grafico dei dati
 
 
 :::
 ````
 
 ## Your turn! 
+
+<br>
 
 - Dividete una parte del documento in 3 colonne (potete usare sia l'ambiente colonna sia l'ambiente griglia)
 
