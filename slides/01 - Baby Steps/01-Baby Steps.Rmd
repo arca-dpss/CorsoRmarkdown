@@ -1,7 +1,7 @@
 ---
 title: "01-Baby steps"
 author: "Ottavia M. Epifania"
-date: ''
+date: 'Corsi ARCA'
 output: 
   ioslides_presentation: 
     css: "arca.css"
@@ -267,7 +267,7 @@ knitr::include_graphics(path = "img/numeHeader.png")
 
 ## Table of contents
 
-Per aggiungere l'indice, bisogna modificare lo YAML, aggiungendo l'elemento `toc`(**T**able **O**f **C**ontents)
+Per aggiungere l'indice, bisogna modificare lo YAML, aggiungendo l'elemento `toc` (**T**able **O**f **C**ontents)
 
 ```{r echo= TRUE, eval = FALSE}
 ---
@@ -815,4 +815,4 @@ Molto semplicemente:
 \end{equation}
 ```
 
-Per richiamarla nel testo `\@ref(eq:mean)`
+Per richiamarla nel testo `\@ref(eq:media)`
