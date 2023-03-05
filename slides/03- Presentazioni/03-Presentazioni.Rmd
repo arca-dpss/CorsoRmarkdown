@@ -1,5 +1,5 @@
 ---
-title: "04 - Presentazioni"
+title: "03 - Presentazioni"
 author: "Ottavia M. Epifania"
 date: ''
 runtime: shiny
@@ -376,9 +376,9 @@ options = list(height = 400)
 
 - `ioslides`: <font size="3">sono quelle che vi farò vedere io, sono le slide in `html` più semplici da ottenere e che permettono un risultato accettabile con relativamente poco sforzo</font>
 - `slidify`: <font size="3">sempre in `html`, ma sono leggermente più complesse e il risultato non è carino come `ioslides`</font>
-- `beamer_presentation`: <font size="3">per ottenere `pdf`. Le vedremo nella lezione [04-LaTeX-knitr](https://ottaviae.github.io/CorsoRmarkdown/slides/03bis%20-%20LaTeX%20Bis/03bis-LaTeX-bis.pdf)</font>
+- `beamer_presentation`: <font size="3">per ottenere `pdf`. Le vedremo nella lezione [04-LaTeX-knitr](https://arca-dpss.github.io/CorsoRmarkdown/slides/04%20-%20LaTeX-knitr/04-LaTeX-knitr.pdf)</font>
 
-- `xaringan`: <font size="3">sempre in html, ma mooooolto più carine [05-xaringan](https://ottaviae.github.io/CorsoRmarkdown/slides/03bis%20-%20LaTeX%20Bis/03bis-LaTeX-bis.pdf)</font>
+- `xaringan`: <font size="3">sempre in html, ma mooooolto più carine [05-xaringan](https://arca-dpss.github.io/CorsoRmarkdown/slides/05%20-%20xaringan/05-xaringan.html#1)</font>
 
 
 N.B.: se non modificate troppo il template originale, si può saltellare allegramente tra `ioslides` e `beamer_presentation` (quindi tra `html` e `pdf`)
