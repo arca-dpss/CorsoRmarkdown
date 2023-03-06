@@ -46,7 +46,7 @@ Per installare `RMarkdown`:
 
 Dopo aver installato tutti i programmi, aprire `RStudio`. Nel pannello `Console` di `RStudio` digitare: 
 
-    install.packages("RMarkdown")
+    install.packages("rmarkdown")
 
 e premere `Invio`. 
 
