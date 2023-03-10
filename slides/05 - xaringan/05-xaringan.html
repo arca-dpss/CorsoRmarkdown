@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>05-xaringam</title>
+    <title>05-xaringan</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ottavia M. Epifania" />
     <script src="libs/header-attrs/header-attrs.js"></script>
@@ -22,7 +22,7 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# 05-xaringam
+# 05-xaringan
 ]
 .author[
 ### Ottavia M. Epifania
@@ -59,7 +59,7 @@ class: center, middle, inverse, title-slide
 ---
 
 
-# Cos'è xaringam
+# Cos'è xaringan
 
 
 &lt;br&gt;
@@ -84,7 +84,7 @@ Nella console di RStudio basta scrivere:
 
 
 ```r
-&gt; install.packages("xaringam")
+&gt; install.packages("xaringan")
 ```
 
 premere invio e attendere il termine dell'installazione-
@@ -102,7 +102,7 @@ Per aprire un nuovo file:
 # Il file di default 
 
 
-- Il file di default che viene creato all'apertura contiene un sacco di informazioni utili su xaringam 
+- Il file di default che viene creato all'apertura contiene un sacco di informazioni utili su xaringan 
 
 - Fornisce un template per nuove presentazioni 
 
@@ -112,7 +112,7 @@ Per aprire un nuovo file:
 
 class: middle, center
 
-# Presentazioni in xaringam
+# Presentazioni in xaringan
 
 ---
 
@@ -132,7 +132,7 @@ class: middle, center
       highlightStyle: github
       highlightLines: true
       highlightLanguage: r
-      highlightSpans: false
+      highlightSpans: true
       countIncrementalSlides: false
 ---
 
@@ -154,13 +154,13 @@ class: middle, center
       highlightStyle: github
       highlightLines: true
       highlightLanguage: r
-            highlightSpans: false
+            highlightSpans: true
       countIncrementalSlides: false
 ---
 
 ```
 
-Si possono definire i css da usare per la presentazione. xaringam fornisce una serie di css tra cui poter scegliere: 
+Si possono definire i css da usare per la presentazione. xaringan fornisce una serie di css tra cui poter scegliere: 
 
 
 
@@ -204,7 +204,7 @@ Si possono definire i css da usare per la presentazione. xaringam fornisce una s
 *      highlightStyle: github
       highlightLines: true
       highlightLanguage: r
-      highlightSpans: false
+      highlightSpans: true
       countIncrementalSlides: false
 ---
 
@@ -241,7 +241,7 @@ Le diverse modalità con cui si possono mostrare i chunk di codice:
       highlightStyle: github
 *      highlightLines: true
       highlightLanguage: r
-      highlightSpans: false
+      highlightSpans: true
       countIncrementalSlides: false
 ---
 
@@ -275,7 +275,7 @@ Permette di evidenziare le righe di codice segnate:
       highlightStyle: github
       highlightLines: true
 *      highlightLanguage: r
-      highlightSpans: false
+      highlightSpans: true
       countIncrementalSlides: false
 ---
 
@@ -302,7 +302,7 @@ Ogni linguaggio ha un suo modo specifico di essere riportato e si può scegliere
       highlightStyle: github
       highlightLines: true
       highlightLanguage: r
-*      highlightSpans: false 
+*      highlightSpans: true 
       countIncrementalSlides: false 
 ---
 
@@ -340,7 +340,7 @@ iris `%&gt;%`
       highlightStyle: github
       highlightLines: true
       highlightLanguage: r
-      highlightSpans: false
+      highlightSpans: true
 *      countIncrementalSlides: false 
 ---
 
@@ -374,7 +374,7 @@ Testo
 
 
 
-I tre tick iniziali `---` sono fondamentali per creare la nuov slide, non basta più mettere solo il cancelletto 
+I tre tick iniziali `---` sono fondamentali per creare la nuova slide, non basta più mettere solo il cancelletto 
 
 
 ---
@@ -553,7 +553,7 @@ knitr::include_graphics(path = "percorso-alla-figura")
 ---
 # Matematica 
 
-Esattemente per come in `Rmarkdown`: 
+Esattemente come in `Rmarkdown`: 
 
 .pull-left[
 `$y = \alpha + \beta X + \varepsilon$` 
@@ -694,8 +694,8 @@ DT::datatable(
 ````
 
 
-<div id="htmlwidget-bc8a20082f1d98c890f2" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-bc8a20082f1d98c890f2">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-96989658585fb5b85a44" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-96989658585fb5b85a44">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ]
 
@@ -789,7 +789,7 @@ class: inverse,  middle
 
 # Your turn! 
 
-Provate a creare una presentazione con xaringam che abbia: 
+Provate a creare una presentazione con xaringan che abbia: 
 
 - Una slide con una tabella (possibilmente versione pro!)
 
