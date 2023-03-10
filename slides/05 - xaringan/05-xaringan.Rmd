@@ -1,5 +1,5 @@
 ---
-title: "05-xaringam"
+title: "05-xaringan"
 author: "Ottavia M. Epifania"
 output:
   xaringan::moon_reader:
@@ -51,7 +51,7 @@ library(tidyr)
 ---
 
 
-# Cos'è xaringam
+# Cos'è xaringan
 
 
 <br>
@@ -75,7 +75,7 @@ Nella console di RStudio basta scrivere:
 
 
 ```{r eval=FALSE, tidy=FALSE}
-install.packages("xaringam")
+install.packages("xaringan")
 ```
 
 premere invio e attendere il termine dell'installazione-
@@ -95,7 +95,7 @@ knitr::include_graphics("img/new-xaringam.png")
 # Il file di default 
 
 
-- Il file di default che viene creato all'apertura contiene un sacco di informazioni utili su xaringam 
+- Il file di default che viene creato all'apertura contiene un sacco di informazioni utili su xaringan 
 
 - Fornisce un template per nuove presentazioni 
 
@@ -105,7 +105,7 @@ knitr::include_graphics("img/new-xaringam.png")
 
 class: middle, center
 
-# Presentazioni in xaringam
+# Presentazioni in xaringan
 
 ---
 
@@ -125,7 +125,7 @@ class: middle, center
       highlightStyle: github
       highlightLines: true
       highlightLanguage: r
-      highlightSpans: false
+      highlightSpans: true
       countIncrementalSlides: false
 ---
 
@@ -147,13 +147,13 @@ class: middle, center
       highlightStyle: github
       highlightLines: true
       highlightLanguage: r
-            highlightSpans: false
+            highlightSpans: true
       countIncrementalSlides: false
 ---
 
 ```
 
-Si possono definire i css da usare per la presentazione. xaringam fornisce una serie di css tra cui poter scegliere: 
+Si possono definire i css da usare per la presentazione. xaringan fornisce una serie di css tra cui poter scegliere: 
 
 
 ```{r}
@@ -182,7 +182,7 @@ names(xaringan:::list_css())
 *      highlightStyle: github
       highlightLines: true
       highlightLanguage: r
-      highlightSpans: false
+      highlightSpans: true
       countIncrementalSlides: false
 ---
 
@@ -218,7 +218,7 @@ tomorrow-night-eighties, vs, zenburn
       highlightStyle: github
 *      highlightLines: true
       highlightLanguage: r
-      highlightSpans: false
+      highlightSpans: true
       countIncrementalSlides: false
 ---
 
@@ -252,7 +252,7 @@ Permette di evidenziare le righe di codice segnate:
       highlightStyle: github
       highlightLines: true
 *      highlightLanguage: r
-      highlightSpans: false
+      highlightSpans: true
       countIncrementalSlides: false
 ---
 
@@ -279,7 +279,7 @@ Ogni linguaggio ha un suo modo specifico di essere riportato e si può scegliere
       highlightStyle: github
       highlightLines: true
       highlightLanguage: r
-*      highlightSpans: false 
+*      highlightSpans: true 
       countIncrementalSlides: false 
 ---
 
@@ -317,7 +317,7 @@ iris `%>%`
       highlightStyle: github
       highlightLines: true
       highlightLanguage: r
-      highlightSpans: false
+      highlightSpans: true
 *      countIncrementalSlides: false 
 ---
 
@@ -351,7 +351,7 @@ Testo
 
 
 
-I tre tick iniziali `---` sono fondamentali per creare la nuov slide, non basta più mettere solo il cancelletto 
+I tre tick iniziali `---` sono fondamentali per creare la nuova slide, non basta più mettere solo il cancelletto 
 
 
 ---
@@ -512,7 +512,7 @@ knitr::include_graphics(path = "img/rose.jpeg")
 ---
 # Matematica 
 
-Esattemente per come in `Rmarkdown`: 
+Esattemente come in `Rmarkdown`: 
 
 .pull-left[
 `$y = \alpha + \beta X + \varepsilon$` 
@@ -689,7 +689,7 @@ class: inverse,  middle
 
 # Your turn! 
 
-Provate a creare una presentazione con xaringam che abbia: 
+Provate a creare una presentazione con xaringan che abbia: 
 
 - Una slide con una tabella (possibilmente versione pro!)
 

@@ -531,6 +531,14 @@ head(cars)
 :::
 
 
+## Your turn!
+
+- Create una slide con due colonne
+
+- Create un'altra slide con due colonne, in una colonna un'immagine, nell'altra testo 
+
+. Un'altra slide con due colonne, in una un grafico, nel'altra testo
+
 ## Testo incrementale
 
 Avete visto che in alcune mie slide il testo appare in modo incrementale. Questo effetto si può ottenere in due modi, entrambi basati su \LaTeX:

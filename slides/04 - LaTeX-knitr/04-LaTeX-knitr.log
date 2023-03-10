@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2022.6.6)  19 FEB 2023 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2022.6.6)  9 MAR 2023 16:17
 entering extended mode
 **./04-LaTeX-knitr.tex
 (04-LaTeX-knitr.tex
@@ -1307,33 +1307,33 @@ Package: xurl 2020/01/24 v 0.09 modify URL breaks
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 155.
+(hyperref)                removing `\\' on input line 159.
 
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 15
-9.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 16
+3.
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (04-LaTeX-knitr.aux)
 \openout1 = `04-LaTeX-knitr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1390,7 +1390,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-Package hyperref Info: Link coloring OFF on input line 159.
+Package hyperref Info: Link coloring OFF on input line 163.
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -1402,9 +1402,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count365
 )
-LaTeX Info: Redefining \ref on input line 159.
-LaTeX Info: Redefining \pageref on input line 159.
-LaTeX Info: Redefining \nameref on input line 159.
+LaTeX Info: Redefining \ref on input line 163.
+LaTeX Info: Redefining \pageref on input line 163.
+LaTeX Info: Redefining \nameref on input line 163.
 
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-
 basic-dictionary-English.dict
@@ -1430,14 +1430,14 @@ Dictionary: translator-numbers-dictionary, Language: English
 theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 159.
+LaTeX Info: Redefining \microtypecontext on input line 163.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 159.
+LaTeX Info: Redefining \showhyphens on input line 163.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1445,45 +1445,45 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Info: Redefining \it@ocap on input line 159.
-LaTeX Info: Redefining \it@ccap on input line 159.
+LaTeX Info: Redefining \it@ocap on input line 163.
+LaTeX Info: Redefining \it@ccap on input line 163.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (04-LaTeX-knitr.nav)
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-60.
+64.
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-60.
+64.
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-160.
+164.
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-160.
+164.
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 160.
+(Font)              <14.4> on input line 164.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 160.
+(Font)              <10> on input line 164.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 160.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 160
+(Font)              <7> on input line 164.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 164
 .
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 160
+LaTeX Font Info:    Trying to load font information for U+msb on input line 164
 .
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1491,34 +1491,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-60.
+64.
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 160.
+(Font)              <8> on input line 164.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 160.
+(Font)              <6> on input line 164.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 160.
+(Font)              <5> on input line 164.
 
-Overfull \vbox (43.87888pt too high) detected at line 160
+Overfull \vbox (43.87888pt too high) detected at line 164
  []
 
 [1
 
 {C:/Users/huawei/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-99.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+03.
 (C:\Users\huawei\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 199.
+(Font)              <10.95> on input line 203.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 199.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 203.
 
-Overfull \vbox (20.21669pt too high) detected at line 199
+Overfull \vbox (20.21669pt too high) detected at line 203
  []
 
 [2
@@ -1527,9 +1527,9 @@ Overfull \vbox (20.21669pt too high) detected at line 199
 eave}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.199 \end{frame}
+l.203 \end{frame}
                  
-Overfull \vbox (20.21669pt too high) detected at line 199
+Overfull \vbox (20.21669pt too high) detected at line 203
  []
 
 [3
@@ -1540,7 +1540,7 @@ Overfull \vbox (20.21669pt too high) detected at line 199
 <img/yaml.png, id=71, 672.549pt x 312.294pt>
 File: img/yaml.png Graphic file (type png)
 <use img/yaml.png>
-Package pdftex.def Info: img/yaml.png  used on input line 207.
+Package pdftex.def Info: img/yaml.png  used on input line 211.
 (pdftex.def)             Requested size: 335.74263pt x 155.90358pt.
 [5
 
@@ -1580,10 +1580,10 @@ gura[]
 <img/unipd.png, id=101, 943.525pt x 949.5475pt>
 File: img/unipd.png Graphic file (type png)
 <use img/unipd.png>
-Package pdftex.def Info: img/unipd.png  used on input line 276.
+Package pdftex.def Info: img/unipd.png  used on input line 280.
 (pdftex.def)             Requested size: 167.8713pt x 168.94067pt.
 
-Overfull \vbox (4.67467pt too high) detected at line 276
+Overfull \vbox (4.67467pt too high) detected at line 280
  []
 
 [9
@@ -1592,7 +1592,7 @@ Overfull \vbox (4.67467pt too high) detected at line 276
 \openout4 = `04-LaTeX-knitr.vrb'.
 
 (04-LaTeX-knitr.vrb)
-Overfull \vbox (18.16348pt too high) detected at line 308
+Overfull \vbox (18.16348pt too high) detected at line 312
  []
 
 [10
@@ -1600,7 +1600,7 @@ Overfull \vbox (18.16348pt too high) detected at line 308
 ]
 File: img/unipd.png Graphic file (type png)
 <use img/unipd.png>
-Package pdftex.def Info: img/unipd.png  used on input line 333.
+Package pdftex.def Info: img/unipd.png  used on input line 337.
 (pdftex.def)             Requested size: 50.3619pt x 50.6822pt.
 <04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-4-1.pdf, id=121, 722.7pt x 50
 5.89pt>
@@ -1608,7 +1608,7 @@ File: 04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-4-1.pdf Graphic file (ty
 pe pdf)
 <use 04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-4-1.pdf>
 Package pdftex.def Info: 04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-4-1.p
-df  used on input line 333.
+df  used on input line 337.
 (pdftex.def)             Requested size: 80.57935pt x 56.40456pt.
 [11
 
@@ -1662,7 +1662,7 @@ are la media della variabile $X$:[]
 \openout4 = `04-LaTeX-knitr.vrb'.
 
 (04-LaTeX-knitr.vrb)
-Overfull \vbox (23.54819pt too high) detected at line 488
+Overfull \vbox (23.54819pt too high) detected at line 492
  []
 
 [19
@@ -1707,7 +1707,7 @@ l.2 ...ect\hypertarget{stampare-la-bibliografia}{}
 \openout4 = `04-LaTeX-knitr.vrb'.
 
 (04-LaTeX-knitr.vrb)
-Overfull \vbox (6.61304pt too high) detected at line 654
+Overfull \vbox (6.61304pt too high) detected at line 658
  []
 
 [27
@@ -1718,7 +1718,7 @@ r (name{colonne}) has been already used, duplicate ignored
                    \relax 
 l.2 \protect\hypertarget{colonne}{}
                                    )
-Overfull \vbox (6.61304pt too high) detected at line 654
+Overfull \vbox (6.61304pt too high) detected at line 658
  []
 
 [28
@@ -1742,17 +1742,12 @@ pdf  used on input line 11.
 (pdftex.def)             Requested size: 80.5775pt x 56.39684pt.
 ) [30
 
- <./04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-13-1.pdf>]
+ <./04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-13-1.pdf>] [31
+
+]
 \openout4 = `04-LaTeX-knitr.vrb'.
 
-(04-LaTeX-knitr.vrb) [31
-
-] (04-LaTeX-knitr.vrbpdfTeX warning (ext4): destination with the same identifie
-r (name{testo-incrementale}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2 \protect\hypertarget{testo-incrementale}{}
-                                              ) [32
+(04-LaTeX-knitr.vrb) [32
 
 ] (04-LaTeX-knitr.vrbpdfTeX warning (ext4): destination with the same identifie
 r (name{testo-incrementale}) has been already used, duplicate ignored
@@ -1768,17 +1763,17 @@ r (name{testo-incrementale}) has been already used, duplicate ignored
 l.2 \protect\hypertarget{testo-incrementale}{}
                                               ) [34
 
+] (04-LaTeX-knitr.vrbpdfTeX warning (ext4): destination with the same identifie
+r (name{testo-incrementale}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \protect\hypertarget{testo-incrementale}{}
+                                              ) [35
+
 ]
 \openout4 = `04-LaTeX-knitr.vrb'.
 
-(04-LaTeX-knitr.vrb) [35
-
-] (04-LaTeX-knitr.vrbpdfTeX warning (ext4): destination with the same identifie
-r (name{section-5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2 \protect\hypertarget{section-5}{}
-                                     ) [36
+(04-LaTeX-knitr.vrb) [36
 
 ] (04-LaTeX-knitr.vrbpdfTeX warning (ext4): destination with the same identifie
 r (name{section-5}) has been already used, duplicate ignored
@@ -1794,34 +1789,41 @@ r (name{section-5}) has been already used, duplicate ignored
 l.2 \protect\hypertarget{section-5}{}
                                      ) [38
 
-] [39
+] (04-LaTeX-knitr.vrbpdfTeX warning (ext4): destination with the same identifie
+r (name{section-5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \protect\hypertarget{section-5}{}
+                                     ) [39
 
 ] [40
 
-]pdfTeX warning (ext4): destination with the same identifier (name{blocchi-di-t
-esto}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.834 \end{frame}
-                  [41
+] [41
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{blocchi-di-t
 esto}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.834 \end{frame}
+l.851 \end{frame}
                   [42
+
+]pdfTeX warning (ext4): destination with the same identifier (name{blocchi-di-t
+esto}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.851 \end{frame}
+                  [43
 
 ]
 \openout4 = `04-LaTeX-knitr.vrb'.
 
 (04-LaTeX-knitr.vrb)
-Overfull \vbox (24.4909pt too high) detected at line 865
+Overfull \vbox (24.4909pt too high) detected at line 882
  []
 
-[43
+[44
 
-] [44
+] [45
 
 ]
 \tf@nav=\write6
@@ -1835,13 +1837,13 @@ Overfull \vbox (24.4909pt too high) detected at line 865
 
 (04-LaTeX-knitr.aux) ) 
 Here is how much of TeX's memory you used:
- 33914 strings out of 480236
- 691902 string characters out of 2880084
- 1060505 words of memory out of 3000000
- 49472 multiletter control sequences out of 15000+200000
+ 33920 strings out of 480236
+ 691959 string characters out of 2880084
+ 1059594 words of memory out of 3000000
+ 49475 multiletter control sequences out of 15000+200000
  610914 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,13n,112p,1817b,749s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 111i,13n,112p,1817b,748s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/huawei/AppData/Local/Programs/MiKTeX/fonts/enc/
 dvips/lm/lm-mathsy.enc}{C:/Users/huawei/AppData/Local/Programs/MiKTeX/fonts/enc
 /dvips/lm/lm-ts1.enc}{C:/Users/huawei/AppData/Local/Programs/MiKTeX/fonts/enc/d
@@ -1863,9 +1865,9 @@ public/lm/lmtk10.pfb><C:/Users/huawei/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmtt10.pfb><C:/Users/huawei/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/lm/lmtt8.pfb><C:/Users/huawei/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/lm/lmtt9.pfb>
-Output written on 04-LaTeX-knitr.pdf (44 pages, 1449888 bytes).
+Output written on 04-LaTeX-knitr.pdf (45 pages, 1451598 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 127 named destinations out of 1000 (max. 500000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
  12475 words of extra memory for PDF output out of 14400 (max. 10000000)
 
