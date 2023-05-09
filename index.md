@@ -18,14 +18,13 @@ In questa pagina sono presenti tutti i link e il materiale necessario per il cor
 
 ## Il corso
 
-Il corso si svolgerà a Padova dal 6 al 10 marzo:
+Il corso si svolgerà a Padova dal 15 al 19 maggio:
 
-- 6 marzo: 13:00-17:00, LAB 2A del CLA
-- 7 marzo: 13:00-17:00, LAB 2A del CLA
-- 8 marzo: 13:00-17:00, DPSS2 (primo piano Psico1 davanti a caffetteria)
-- 9 marzo: 14:00-18:00, Sala Riunioni 5 piano del CLA
-- 10 marzo: 13:00-17:00, LAB 2A del CLA
-
+- 15 maggio: 13:00-17:00, Aula 4M di Psico 2
+- 16 maggio: 13:00-17:00, Aula 4M di Psico 2
+- 17 maggio: 13:00-17:00, Aula 4M di Psico 2
+- 18 maggio: 13:00-17:00, Aula 4M di Psico 2
+- 19 maggio: 13:00-16:30, Aula 4M di Psico 2
 
 Alla fine del corso chiederò a ogni studente di produrre una piccola presentazione in `RMarkdown` e un file di report sul dataset usato durante i giorni di lezione. Questi file li preparemo insieme durante il corso stesso, dove infatti le ore di lezione frontale sono intervallate da esercitazioni pratiche.
 
