@@ -55,7 +55,7 @@ Ma partiamo dall'inizio:
 
 ## Questionario di fine corso
 
-Non dimenticate di compilare il [questionario di fine corso]( https://forms.gle/V8FjknHbKpAoVbzv7)!
+Non dimenticate di compilare il [questionario di fine corso]( https://forms.gle/5PkBkhLMLnkPQSXg6)!
 
 ## File di esempio
 
