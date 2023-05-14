@@ -309,6 +309,46 @@ rock
 
 Ricodate che una delle righe che volete mostrate è "mangiata" dai nomi delle colonne
 
+
+## Warning 
+
+L'environment di `R` e l'environment di `RMarkdown` sono due cose dievrse
+
+Il fatto che voi vediate degli oggetti nel vostro environment come nell'esempio qui sotto non implica che siano importati automaticamente dentro RMarkdown
+
+
+<br>
+
+
+<div style="float: left; width: 50%; text-align: left;">
+    
+```{r fig.align="center", fig.cap="R environment", out.width="95%"}
+knitr::include_graphics("img/env.png")
+```
+
+    
+ </div> 
+
+<div style="float: right; width: 50%; text-align: right;">
+```{r fig.align="center", fig.cap="RMarkdown"}
+knitr::include_graphics("img/blondeBaby.jpg")
+```
+
+</div>
+
+## Warning I
+
+
+<br>
+
+
+<br>
+
+
+Dovete ogni volta scrivere il codice per generare l'environment in modo che corra *senza errori*
+
+Un'altra opzione è di importare l'environment salvato con il comando `load()` 
+
 ## Your turn!
 
 - Create un nuovo chunk per il summary dei dati `summary(dati)` **senza**
