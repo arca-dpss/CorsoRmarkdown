@@ -24,6 +24,79 @@ library("emoji")
 .forceBreak { -webkit-column-break-after: always; break-after: column; }
 </style>
 
+# `RMarkdown` <font size = "5">e i disagi del'installazione</font>
+
+## Come è andata l'installazione? 
+
+```{r eval = F, echo = T}
+
+if (installazione.ok == TRUE) {
+  
+  cat("Nice job!")
+}  
+else {
+  
+  cat("Don't worry!")
+  
+}
+
+```
+
+
+Se siete riusciti a installare `RMarkdown` senza disagi... meglio per voi!
+
+Se invece non ci siete riusciti o ci siete riusciti ricorrendo a stratagemmi tipo `tinytext` <font size ="4">(che comunque va benissimo)</font>...Don't worry. 
+
+Cerchiamo di essere tutti nella stessa condizione
+
+## Step 1
+
+<br>
+
+<br>
+
+Localizzate la cartella di installazione di `R`. Nel mio computer è così: 
+
+> `C:\Program Files\R\R-4.2.3`
+
+All'interno della cartella di installazione di `R`, cercate il percorso: 
+
+> `share\textmf`
+    
+Copia & incollate il percorso nel blocco note (o simile)
+
+## Step 2.1
+
+Cercate `MikTex` dalla barra delle applicazioni <font size = "5">(e apritelo)</font>: 
+
+
+```{r fig.align='center', out.width="70%"}
+knitr::include_graphics("img/miktekFind.png")
+```
+
+
+## Step 2.2 
+
+Nel pannello "Directories" del pannello "Settings" cliccate sul "+": 
+
+```{r fig.align='center', out.width="80%"}
+knitr::include_graphics("img/miktexDir.png")
+```
+
+
+## Step 2.3
+
+<br>
+
+<br>
+
+Nel prompt che compare Copia & incollate la directory che avete selezionato prima (`C:\Program Files\R\R-4.2.3\share\texmf`)
+
+Chiudete RStudio 
+
+Riaprite tutto e fate correre di nuovo il `File-Check.Rmd`
+
+
 
 # `RMarkdown`
 
@@ -98,7 +171,7 @@ Questo grafico:
 library(ggplot2)
 ggplot(iris, 
        aes(x=Sepal.Length, y = Petal.Length)) + geom_point() + 
-  geom_smooth(method="lm") + theme_minimal()
+  geom_smooth(method="lm") + theme_light()
 
 ```
 
@@ -129,7 +202,7 @@ In `RMarkwown` all you need is `knit` `r emoji("musical note")` :
 library(ggplot2)
 ggplot(iris, 
        aes(x=Sepal.Length, y = Petal.Length)) + 
-  geom_point() + theme_minimal()
+  geom_point() + theme_light()
   geom_smooth(method="lm")
 
 ```
@@ -183,7 +256,7 @@ Due file:
 
 In [questa cartella](https://drive.google.com/drive/folders/19F1fhDwih04MeyKP_E4xLsPc0VAw-3co?usp=sharing) vi ho preparato degli esempi di file (tra cui quello per la tesi)
 
-[Qui](https://forms.gle/V8FjknHbKpAoVbzv7) trovate il questionario da compilare a fine corso per dire se il corso vi è piaciuto
+[Qui](https://forms.gle/5PkBkhLMLnkPQSXg6) trovate il questionario da compilare a fine corso per dire se il corso vi è piaciuto
 
 ## Cosa non faremo in questo corso
 
