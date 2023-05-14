@@ -117,8 +117,8 @@ knitr::include_graphics("img/source.png")
 ADAVANCED
 :::
 
--   Mettere un sottotitolo
--   Togliere la data
+-   Mettete un sottotitolo
+-   Togliete la data
 
 ## Dettagli sulla compilazione
 
