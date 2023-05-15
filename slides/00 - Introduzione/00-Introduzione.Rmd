@@ -96,6 +96,9 @@ Chiudete RStudio
 
 Riaprite tutto e fate correre di nuovo il `File-Check.Rmd`
 
+<br>
+
+Se non dovesse funzionare, reinstallate il pacchetto `xfun` (`install.packages("xfun")`)
 
 
 # `RMarkdown`
