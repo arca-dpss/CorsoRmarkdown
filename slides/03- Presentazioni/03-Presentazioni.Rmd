@@ -37,11 +37,14 @@ pre[class] {
   width: 160px !important;
   height: 122px !important;
   margin: 8px 8px;
+  background: none;
 }
 
 .gdbar {
   height: 140px !important;
+  background: none;
 }
+
 
 
 /* GENERAL SLIDES */

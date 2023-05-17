@@ -105,9 +105,29 @@ I file si aprono esattamente come prima. L'unica cosa che modifichiamo è lo YAM
 
 ## Lo YAML
 
-```{r eval = TRUE, echo = FALSE, out.width="100%"}
-knitr::include_graphics("img/yaml.png")
+\scriptsize
+
+```{tex eval = FALSE}
+title: "Esempio di File"
+author: "Ottavia M. Epifania"
+date: "5/3/2023"
+output:
+   pdf_document:
+      includes:
+        before_body: titolo.sty
+      keep_tex: yes
+      number_sections: yes
+      toc_depth: 2
+bibliography: bibliografia/biblio.bib
+header-includes: 
+  - \usepackage{setspace} # per cambiare interlinea
+  - \usepackage{multicol} # le colonne delle tabelle 
+  - \usepackage{caption}  # caption delle figure/tabelle
+  - \usepackage[italian]{babel} # caption in italiano
+  - \usepackage{graphicx} # per inserire le figure
+  - \usepackage{subcaption} # per inserirele caption alle figure
 ```
+
 
 ##
 
@@ -170,6 +190,7 @@ knitr::include_graphics("img/unipd.png")
 \scriptsize
 Bisogna aggiungere allo YAML `-\usepackage{subcaption}`
 
+\footnotesize
 `In figura \ref{fig:doppia} si trova un esempio di sottoofigure. In Figura \ref{sub:unipd1} c'è il logo unipd, in Figura \ref{sub:grafico} c'è un grafico.`
 
 
@@ -306,7 +327,7 @@ Ho creato [\textcolor{blue}{titolo.sty}](https://drive.google.com/file/d/1O4YgvA
 
 ## Importare la bibliografia
 
-```{tex eval = FALSE}
+```{tex eval = FALSE, comment = ""}
 output:
    pdf_document:
       includes:
