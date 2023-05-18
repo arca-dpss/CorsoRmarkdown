@@ -187,12 +187,13 @@ knitr::include_graphics("img/unipd.png")
 ````
 
 ## Le sottofigure {.plain}
+\vspace*{-0.5cm}
 \scriptsize
 Bisogna aggiungere allo YAML `-\usepackage{subcaption}`
 
-\footnotesize
-`In figura \ref{fig:doppia} si trova un esempio di sottoofigure. In Figura \ref{sub:unipd1} c'è il logo unipd, in Figura \ref{sub:grafico} c'è un grafico.`
+\tiny
 
+`In figura \ref{fig:doppia} [..]. In Figura \ref{sub:unipd1} [...] in Figura \ref{sub:grafico} [..]`
 
       \begin{figure}
         \centering
@@ -217,7 +218,7 @@ Bisogna aggiungere allo YAML `-\usepackage{subcaption}`
 
 ##
 
-In figura \ref{fig:doppia} si trova un esempio di sottoofigure. In Figura \ref{sub:unipd1} c'è il logo unipd, in Figura \ref{sub:grafico} c'è un grafico.
+In figura \ref{fig:doppia} si trova un esempio di sottofigure. In Figura \ref{sub:unipd1} c'è il logo unipd, in Figura \ref{sub:grafico} c'è un grafico.
 
 ````{=tex}
 \begin{figure}

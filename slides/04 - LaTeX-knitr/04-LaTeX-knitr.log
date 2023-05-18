@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2023.5.14)  17 MAY 2023 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2023.5.14)  18 MAY 2023 13:12
 entering extended mode
 **./04-LaTeX-knitr.tex
 (04-LaTeX-knitr.tex
@@ -1588,24 +1588,20 @@ Overfull \vbox (4.67467pt too high) detected at line 303
  <./img/unipd.png>]
 \openout4 = `04-LaTeX-knitr.vrb'.
 
-(04-LaTeX-knitr.vrb)
-Overfull \vbox (56.33551pt too high) detected at line 337
- []
-
-[10
+(04-LaTeX-knitr.vrb) [10
 
 ]
 File: img/unipd.png Graphic file (type png)
 <use img/unipd.png>
-Package pdftex.def Info: img/unipd.png  used on input line 362.
+Package pdftex.def Info: img/unipd.png  used on input line 363.
 (pdftex.def)             Requested size: 50.3619pt x 50.6822pt.
-<04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-4-1.pdf, id=119, 722.7pt x 50
+<04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-4-1.pdf, id=118, 722.7pt x 50
 5.89pt>
 File: 04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-4-1.pdf Graphic file (ty
 pe pdf)
 <use 04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-4-1.pdf>
 Package pdftex.def Info: 04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-4-1.p
-df  used on input line 362.
+df  used on input line 363.
 (pdftex.def)             Requested size: 80.57935pt x 56.40456pt.
 [11
 
@@ -1659,7 +1655,7 @@ are la media della variabile $X$:[]
 \openout4 = `04-LaTeX-knitr.vrb'.
 
 (04-LaTeX-knitr.vrb)
-Overfull \vbox (23.54819pt too high) detected at line 517
+Overfull \vbox (23.54819pt too high) detected at line 518
  []
 
 [19
@@ -1704,7 +1700,7 @@ l.2 ...ect\hypertarget{stampare-la-bibliografia}{}
 \openout4 = `04-LaTeX-knitr.vrb'.
 
 (04-LaTeX-knitr.vrb)
-Overfull \vbox (6.61304pt too high) detected at line 683
+Overfull \vbox (6.61304pt too high) detected at line 684
  []
 
 [27
@@ -1715,7 +1711,7 @@ r (name{colonne}) has been already used, duplicate ignored
                    \relax 
 l.2 \protect\hypertarget{colonne}{}
                                    )
-Overfull \vbox (6.61304pt too high) detected at line 683
+Overfull \vbox (6.61304pt too high) detected at line 684
  []
 
 [28
@@ -1729,7 +1725,7 @@ Overfull \vbox (6.61304pt too high) detected at line 683
 \openout4 = `04-LaTeX-knitr.vrb'.
 
 (04-LaTeX-knitr.vrb
-<04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-13-1.pdf, id=264, 722.7pt x 5
+<04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-13-1.pdf, id=263, 722.7pt x 5
 05.89pt>
 File: 04-LaTeX-knitr_files/figure-beamer/unnamed-chunk-13-1.pdf Graphic file (t
 ype pdf)
@@ -1801,21 +1797,21 @@ l.2 \protect\hypertarget{section-5}{}
 esto}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.876 \end{frame}
+l.877 \end{frame}
                   [42
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{blocchi-di-t
 esto}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.876 \end{frame}
+l.877 \end{frame}
                   [43
 
 ]
 \openout4 = `04-LaTeX-knitr.vrb'.
 
 (04-LaTeX-knitr.vrb)
-Overfull \vbox (24.4909pt too high) detected at line 907
+Overfull \vbox (24.4909pt too high) detected at line 908
  []
 
 [44
@@ -1834,11 +1830,11 @@ Overfull \vbox (24.4909pt too high) detected at line 907
 
 (04-LaTeX-knitr.aux) ) 
 Here is how much of TeX's memory you used:
- 33917 strings out of 480236
- 692015 string characters out of 2880083
+ 33916 strings out of 480236
+ 692021 string characters out of 2880083
  1059594 words of memory out of 3000000
- 49470 multiletter control sequences out of 15000+200000
- 611219 words of font info for 112 fonts, out of 3000000 for 9000
+ 49472 multiletter control sequences out of 15000+200000
+ 611458 words of font info for 112 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,13n,112p,1817b,748s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/huawei/AppData/Local/Programs/MiKTeX/fonts/enc/
@@ -1862,9 +1858,9 @@ public/lm/lmtk10.pfb><C:/Users/huawei/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmtt10.pfb><C:/Users/huawei/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/lm/lmtt8.pfb><C:/Users/huawei/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/lm/lmtt9.pfb>
-Output written on 04-LaTeX-knitr.pdf (45 pages, 520177 bytes).
+Output written on 04-LaTeX-knitr.pdf (45 pages, 518811 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
+ 453 PDF objects out of 1000 (max. 8388607)
  130 named destinations out of 1000 (max. 500000)
  12470 words of extra memory for PDF output out of 14400 (max. 10000000)
 
