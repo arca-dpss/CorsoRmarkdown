@@ -253,7 +253,7 @@ Per avere le cross-reference:
       In Equazione \ref{eq:mean} è riportata la formula per calcolare la media della variabile $X$:
 
       \begin{equation}\label{eq:mean}
-	    \bar{X} = \frac{\sum_{i=1}^{n} x_i}{n}
+	    \bar{X} = \frac{\sum_{i=1}^{n} x_{i}{n}
       \end{equation}
 
 
