@@ -242,9 +242,9 @@ Permette la riproducibilità dei dati e delle analisi svolte sugli stessi tenend
 
 - Creazione di una presentazione in HTML 
 
-- LaTeX e `RMarkdown` insieme
-
 - Piccoli assaggi di `xaringan` e `quarto`
+
+- Beyond on GitHub 
 
 
 ## Piccola esercitazione finale
