@@ -215,9 +215,10 @@ Titolo del paragrafo
 
 <div>
 
-    # Header 1
 
-    Maaaaa le canzoni d'amore sono meglio stonate
+    # Header 1 
+
+    Muoio senza morire, in questi giorni usati 
 
 ```{r, out.width="50%"}
 knitr::include_graphics(path = "img/header1.png")
@@ -376,12 +377,9 @@ knitr::include_graphics("img/fontsize.png")
 
 Molto semplicemente, si fa precedere il testo da `>`:
 
-    Una canzone di "Colapesce Di Martino", presentata a Sanremo 2023
+    Una canzone di Ghali, presentata a Sanremo 2024.
 
-    > Campi sconfinati che si arrendono alla sera 
-    Qualche finestra accesa mentre il vento arpeggia una ringhiera, tu vivresti qui per sempre 
-    Dici che dovrei staccare un po' la mente, ma io...
-
+    >  Il prato è verde, più verde, più verde, sempre più verde (sempre più verde). Il cielo è blu, blu, blu, molto più blu (ancora più blu)
 </div>
 
 <div>
@@ -401,15 +399,15 @@ Unordered list
 
 </h3>
 
-    - Made in Italy
-    - Splash
-    - Tango
-    - Un bel viaggio
+    - Sinceramente
+    - Quella di Geolier
+    - Casa mia
+    - La noia
 
-- Made in Italy
-- Splash
-- Tango
-- Un bel viaggio
+- Sinceramente
+- Quella di Geolier
+- Casa mia
+- La noia
 :::
 
 ::: {style="float: right; width: 50%;"}
@@ -419,15 +417,15 @@ Ordered list
 
 </h3>
 
-    1. Due vite (ma perché)
-    2. Cenere
-    3. Non ne ho idea
-    4. So solo che Tananai 5 NO
+    1. La noia
+    2. Quella di Geolier
+    3. Sinceramente
+    4. Casa mia
 
-1. Due vite (ma perché)
-2. Cenere
-3. Non ne ho idea
-4. So solo che Tananai 5 NO
+1. La noia
+2. Quella di Geolier
+3. Sinceramente
+4. Casa mia
 :::
 
 ## Elenchi annidati {.build}
@@ -467,9 +465,9 @@ knitr::include_graphics("img/note.png")
 
     [Parola](url-della-pagina)
     
-    [America](https://www.youtube.com/watch?v=X_LzefqaeaA)
+    [Tuta Gold](https://youtu.be/Pz168-XMNIk?si=kLpXXP8rJfAj6cMu) è una canzone che parla di una tuta che è gold
     
-[America](https://www.youtube.com/watch?v=X_LzefqaeaA)
+[Tuta Gold](https://youtu.be/Pz168-XMNIk?si=kLpXXP8rJfAj6cMu) è una canzone che parla di una tuta che è gold
     
 
 
