@@ -1,0 +1,102 @@
+---
+title: "Untitled"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+  pdf_document:
+    number_sections: true
+    toc: true
+date: "2023-02-19"
+linestretch: 1.5
+geometry: margin=1.5in
+---
+
+# Header 1 
+
+Muoio senza morire, in questi giorni usati 
+
+## Header 2
+
+Vivo senza soffrire, non c'è croce più grande
+
+### Header 3
+
+Non ci resta che ridere in queste notti bruciate
+
+#### Header 4 
+
+Una corona di spine sarà il dress-code per la mia festa
+
+# Casa mia
+
+Una canzone di Ghali, presentata a Sanremo 2024.
+
+> Il prato è verde, più verde, più verde, sempre più verde (sempre più verde). Il cielo è blu, blu, blu, molto più blu (ancora più blu)
+
+In Figura `r knitr::asis_output(ifelse(knitr::is_latex_output(), '\\@ref(fig:plot-static)', '\\@ref(fig:plot-interactive)'))` 
+
+```{r plot-static, echo=FALSE, eval=knitr::is_latex_output()}
+library(ggplot2)
+grafico = ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_bw() + theme(legend.position = "none") 
+grafico
+```
+
+```{r plot-interactive, echo=FALSE, eval=knitr::is_html_output()}
+library(ggplot2)
+grafico = ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_bw() + theme(legend.position = "none") 
+plotly::ggplotly(grafico)
+
+```
+
+## Ritornello
+
+-   Non mi sento tanto bene, però
+
+-   Sto già meglio se mi fai vedere
+
+-   Il mondo come lo vedi tu
+
+Non mi serve un'astronave, lo so casa mia, casa tua[^1]
+
+[^1]: Che differenza c'è? Non c'è
+
+<!-- ```{r setup, include=FALSE} -->
+
+<!-- knitr::opts_chunk$set(echo = TRUE) -->
+
+<!-- ``` -->
+
+<!-- -   Ma io lavoro -->
+
+<!-- -   Per non stare con te -->
+
+<!-- Preferisco il rumore delle metro affollate[\^1] -->
+
+<!-- [\^1]A quello del mare -->
+
+<!-- Ma che mare ma che mare, meglio soli su una nave -->
+
+<!-- [America](https://www.raiplay.it/video/2023/02/Sanremo-2023-quarta-serata-Rosa-Chemical-con-Rose-Villain-cantano-America-66555fe2-09fc-4335-be5b-98327b04b1cf.html) -->
+
+<!-- # Header 1 -->
+
+<!-- Maaaaa le canzoni d'amore sono meglio stonate -->
+
+<!-- ## Header 2 -->
+
+<!-- Te le canto così -->
+
+<!-- ### Hader 3 -->
+
+<!-- Nel momento piccante -->
+
+<!-- #### Header 4 -->
+
+<!-- Ti messaggia l'amante -->
+
+<!-- `r knitr::asis_output(ifelse(knitr::is_latex_output(), '\\color{red}parola\\normalcolor', '<span style="color:red">Parola colorata (HTML)</span>'))` -->

@@ -9,7 +9,7 @@ output:
     logo: arca_logo.svg
     widescreen: yes
     highlight: haddock
-knit: pagedown::chrome_print
+# knit: pagedown::chrome_print
 lang: it
 ---
 
@@ -48,6 +48,7 @@ library(emoji)
 library(knitr)
 library(ggplot2)
 library(tidyverse)
+library(kableExtra)
 # cut output credit https://bookdown.org/yihui/rmarkdown-cookbook/hook-truncate.html
 # save the built-in output hook
 hook_output <- knitr::knit_hooks$get("output")
@@ -538,7 +539,7 @@ Queste funzioni si possono usare sia negli argomenti dei chunk di codice sia nel
 
 
 ````
-```{r, echo=FALSE, eval=knitr::is_html_output()}`r ''`
+```{r plot-interactive, echo=FALSE, eval=knitr::is_html_output()}`r ''`
 grafico = ggplot(rock, 
        aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
   theme_bw() + theme(legend.position = "none") 
@@ -548,7 +549,7 @@ plotly::ggplotly(grafico)
 ````
 
 
-```{r}
+```{r plot-interactive}
 grafico = ggplot(rock, 
        aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
   theme_bw() + theme(legend.position = "none") 
@@ -559,7 +560,7 @@ plotly::ggplotly(grafico)
 
 
 ````
-```{r, echo=FALSE, eval=knitr::is_latex_output()}`r ''`
+```{r plot-static, echo=FALSE, eval=knitr::is_latex_output()}`r ''`
 grafico = ggplot(rock, 
        aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
   theme_bw() + theme(legend.position = "none") 
@@ -569,7 +570,7 @@ grafico
 ````
 
 
-```{r}
+```{r plot-static}
 grafico = ggplot(rock, 
        aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
   theme_bw() + theme(legend.position = "none") 
@@ -625,5 +626,24 @@ Vanno usate le funzioni `knitr::is_latex_output()` e `knitr::is_html_output()`, 
 
 - Va definito l'output `asis`
 
+`` `r "\u0060r knitr::asis_output(ifelse(knitr::is_html_output(), '<span style='color:red'>parola</span>', '\\color{red} Voglio una frase rossa \\normalcolor'))\u0060"` ``
 
-        `r knitr::asis_output(ifelse(knitr::is_html_output(), '\\@ref(tab:dist-types-tab-interactive)', '\\@ref(tab:dist-types-tab-static)'))` 
+## Tabelle interattive 
+
+```{r table-interactive, echo = FALSE, eval = is_html_output()}
+mtcars[1:8, 1:8] %>%
+  kbl() %>%
+  kable_paper(full_width = F, "hover") %>%
+  column_spec(2, color = spec_color(mtcars$mpg[1:8]),
+              link = "https://haozhu233.github.io/kableExtra/") %>%
+  column_spec(6, color = "white",
+              background = spec_color(mtcars$drat[1:8], end = 0.7))
+```
+
+
+## Your turn!
+
+- Provate a inserire un grafico interattivo e uno statico, condizionando la loro comparsa al motore di compilazione 
+
+- Rimpiccioilite il testo...sia per HTML sia per PDF!
+
