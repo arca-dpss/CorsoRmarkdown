@@ -242,7 +242,7 @@ Permette la riproducibilità dei dati e delle analisi svolte sugli stessi tenend
 
 - Creazione di una presentazione in HTML 
 
-- Piccoli assaggi di `xaringan` e `quarto`
+- Piccoli assaggi di  `quarto`
 
 - Beyond on GitHub 
 

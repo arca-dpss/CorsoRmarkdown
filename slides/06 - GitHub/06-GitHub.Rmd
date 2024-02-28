@@ -7,6 +7,7 @@ output:
     logo: arca_logo.svg
     widescreen: yes
     highlight: kate
+#knit: pagedown::chrome_print
 ---
 
 <style>
@@ -180,8 +181,8 @@ code.css {
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,
-                      eval = FALSE,
+knitr::opts_chunk$set(echo = F,
+                      eval = TRUE,
                       fig.align = "center")
 # cut output credit https://bookdown.org/yihui/rmarkdown-cookbook/hook-truncate.html
 # save the built-in output hook
@@ -205,11 +206,72 @@ library("emoji")
 
 # Installare Git 
 
-## Creare un account Git 
+## Creare un account Git {.build}
 
-## Installare Git
+[<img width="10%" height="10%" src="img/gh.png">](https://github.com/) [https://github.com/](https://github.com/)
 
-## Collegare Git a RStudio
+<br>
+
+<br>
+
+```{r}
+knitr::include_graphics("img/ghHome.png")
+```
+
+## Utilizzare una mail personale {.build}
+
+```{r}
+knitr::include_graphics("img/ghMail.png")
+```
+
+
+```{r}
+knitr::include_graphics("img/ghMail1.png")
+```
+
+
+## Creare Username e password
+
+Lo username deve essere il più breve e significativo possibile... e soprattutto deve essere qualcosa di cui non vergognerete tra 5 anni 
+
+<br>
+
+
+```{r}
+knitr::include_graphics("img/ghMailpwd.png")
+```
+
+
+Risolvere i CAPTCHA e finalizzare il 
+
+## Installare GitHub Desktop 
+
+[https://desktop.github.com/](https://desktop.github.com/)
+
+<br>
+
+
+```{r}
+knitr::include_graphics("img/ghDesk.png")
+```
+
+
+## Installare Git {.build}
+
+GitHub desktop vi permette un collegamento "indiretto" tra quello che fate in RStudio e GitHub
+
+<br>
+
+Per avere un collegamento diretto va installato [Git](https://gitforwindows.org/ ) seguendo semplicemente le istruzioni di installazione
+
+<br>
+
+
+```{r}
+knitr::include_graphics("img/check.png")
+```
+
+
 
 # Gestire le repository
     
