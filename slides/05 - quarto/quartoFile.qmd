@@ -1,0 +1,106 @@
+---
+title: "Il mio file"
+author: "Ciccio Pasticcio"
+date: today
+format: 
+  html:
+    theme: minty
+    toc: true
+    toc-title: I miei contenuti
+    toc-location: left
+    toc-depth: 3
+    code-tools: 
+      source: true
+      toggle: false
+      caption: none
+editor: source
+lang: it
+---
+
+## Quarto
+
+
+
+::: {.panel-tabset}
+
+## Introduzione
+
+Descrizione del mio dataset 
+
+## I dati
+
+```{r}
+kableExtra::kable(head(rock))
+```
+
+## Il grafico
+
+
+```{r}
+library(ggplot2)
+ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_light() + theme(legend.position = "none") 
+```
+
+
+:::
+
+::: {.grid}
+
+::: {.g-col-4}
+
+Prima colonna più stretta della seconda
+
+:::
+
+::: {.g-col-8}
+
+```{r}
+
+```
+
+
+:::
+
+:::
+
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| echo: true
+#| eval: true
+#| comment: "!!!"
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+
+
+![PsicoStat](img/psicostat.png){#fig-psicostat, width="20%", fig-align="center"}
+
+::: {layout-ncol=2}
+
+Le mie immagini
+
+![PsicoStat](img/psicostat.png){#fig-psicostat}
+
+![Quarto Stato](img/quartoStato.jpg){#fig-prima}
+
+:::
+
+
+
