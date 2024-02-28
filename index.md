@@ -20,13 +20,15 @@ In questa pagina sono presenti tutti i link e il materiale necessario per il cor
 
 Il corso si svolgerà a Padova dal 15 al 19 maggio:
 
-- 15 maggio: 13:00-17:00, Aula 4M di Psico 2
-- 16 maggio: 13:00-17:00, Aula 4M di Psico 2
-- 17 maggio: 13:00-17:00, Aula 4M di Psico 2
-- 18 maggio: 13:00-17:00, Aula 4M di Psico 2
-- 19 maggio: 13:00-16:30, Aula 4M di Psico 2
+- 11 marzo: 9:00-13:00, Aula 4M di Psico 2
+- 12 marzo: 9:00-13:00, Aula 4M di Psico 2
+- 13 marzo: 9:00-13:00, Aula 4M di Psico 2
+- 14 marxo: 13:00-17:00, Aula 4M di Psico 2
+- 15 marzo: 9:00-13:00, Aula 4M di Psico 2 (45 minuti saranno dedicati all'esame!)
 
 Alla fine del corso chiederò a ogni studente di produrre una piccola presentazione in `RMarkdown` e un file di report sul dataset usato durante i giorni di lezione. Questi file li preparemo insieme durante il corso stesso, dove infatti le ore di lezione frontale sono intervallate da esercitazioni pratiche.
+
+Per ottenere l'open badge è necessario frequentare almeno l'80% delle lezioni, per cui si può fare un massimo di 4 ore di assenza. Verrano prese le presenze ad ogni lezione. Alla fine del corso si farà un piccolo esame relativo ai comandi base di `RMarkdown`. L'esame è composto da 20 domande a scelta chiusa, viene assegnato un punto ad ogni risposta corretta, 0 punti a ogni risposta bianca e viene applicata una penalità di $-0.25$ per ogni risposta errata. 
 
 Ma partiamo dall'inizio: 
 
@@ -35,9 +37,13 @@ Ma partiamo dall'inizio:
 02. Chunk di codice: L'essenza di `RMarkdown` va conosciuta nel dettaglio [HTML](slides/02 - Chunk di codice/02-Chunk-di-Codice.html) [PDF](slides/02 - Chunk di codice/02-Chunk-di-Codice.pdf)
 03. Presentazioni in `RMarkdown` [HTML](slides/03- Presentazioni/03-Presentazioni.html) [PDF](slides/03- Presentazioni/03-Presentazioni.pdf)
 04. LaTeX e `knitr`: [PDF](slides/04 - LaTeX-knitr/04-LaTeX-knitr.pdf)
-05. Presentazioni like a pro: `xaringam` [HTML](slides/05 - xaringan/05-xaringan.html) [PDF](slides/05 - xaringan/05-xaringan.pdf)
-06. The future is `quarto` [HTML](slides/06 - quarto/06-quarto.html) [PDF](slides/06 - quarto/06-quarto.pdf)
-07. LaTeX e `Sweave` [PDF](slides/07 - LaTeX-Sweave/07-LaTeX-Sweave.pdf)
+ [PDF](slides/06 - quarto/06-quarto.pdf)
+05. The future is `quarto` [HTML](slides/05 - quarto/05-quarto.html)
+06. Time to go live! Introduzione a [GitHub](https://github.com/) [HTML](slides/06 - GitHub/06-GitHub.hmtl) [PDF](slides/06 - GitHub/06-GitHub.pdf)
+
+
+Per chi fosse interessato, è disponibile anche una breve introduzione al pacchetto [`xaringan`](https://cran.r-project.org/web/packages/xaringan/index.html) [HTML](slides/07 - xaringan/07-xaringan.html) [PDF](slides/07 - xaringan/07-xaringan.pdf)
+
 
 ## Materiale utile
 
