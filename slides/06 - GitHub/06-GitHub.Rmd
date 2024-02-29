@@ -274,4 +274,55 @@ knitr::include_graphics("img/check.png")
 
 
 # Gestire le repository
-    
+
+## Pubblicare una repository già esistente
+
+## Creare una nuova repository 
+
+Sempre attraverso la creazione dei progetti 
+
+```{r out.width="70%"}
+knitr::include_graphics("img/newRepo.png")
+```
+
+## La repository deve essere pubblica
+
+```{r out.width="70%"}
+knitr::include_graphics("img/public.png")
+```
+
+# GitHub pages
+
+## `README.md` {.build}
+
+<div>
+Questo è il file che gestisce tutte le vostre pagine 
+
+Funziona come un indice in cui potete scrivere una presentazione della vostra repository e potete linkare tutte le pagine (HTML o PDF) in modo che sia dei link condivisibili 
+</div>
+
+::: {style="float: left; width: 50%;"}
+```{r, out.width="100%"}
+knitr::include_graphics(path = "img/readme.png")
+```
+:::
+
+::: {style="float: right; width: 50%;"}
+```{r, out.width="100%"}
+knitr::include_graphics(path = "img/site.png")
+```
+:::
+
+## I link 
+
+I link nel `README.md` sono a tutti gli effetti dei link... nel senso che si scrivono con la sintassi che si usa per linkare pagine online
+
+L'unica differenza consiste nel fatto che si linka il percorso del file che vogliamo 
+
+Ad esempio, voglio che la mia pagina linki a un file HTML che si chiama `my_file.html` ed è contenuto nella cartella `files`: 
+
+        [La mia presentazione](files/my_file.html)
+        
+## `commit` + `push`
+
+Bisgona far "parlare" quello che fate in locale con GitHub online
