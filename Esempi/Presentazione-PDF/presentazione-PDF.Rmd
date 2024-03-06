@@ -7,12 +7,12 @@ date: ''
 institute: "Relatore: Maga Magò"
 output: 
   beamer_presentation: 
-    theme: CambridgeUS
+    theme: metropolis
     colortheme: beaver
     fonttheme: serif
     highlight: haddock
 header-includes:
-    - \AtBeginDocument{\title[\LaTeX bis]{03-bis - \LaTeX bis}}
+    - \AtBeginDocument{\title[Come fare i traslochi]{Come fare i traslochi}}
     - \usepackage{graphicx} 
     - \usepackage{setspace}
     - \usepackage{tabularx}
