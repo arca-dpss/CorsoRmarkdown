@@ -326,3 +326,16 @@ Ad esempio, voglio che la mia pagina linki a un file HTML che si chiama `my_file
 ## `commit` + `push`
 
 Bisgona far "parlare" quello che fate in locale con GitHub online
+
+```{r out.width="70%"}
+knitr::include_graphics("img/commit1.png")
+```
+
+## 
+
+```{r out.width="70%"}
+knitr::include_graphics("img/commit2.png")
+```
+
+
+Non dimenticate di cliccare anche su Push!
