@@ -65,6 +65,6 @@ Non dimenticate di compilare il [questionario di fine corso]( https://forms.gle/
 
 ## File di esempio
 
-In [questa cartella](https://drive.google.com/drive/folders/19F1fhDwih04MeyKP_E4xLsPc0VAw-3co?usp=sharing) trovate vari file di esempio ([presentazione HTML](https://drive.google.com/drive/folders/1mEJaFAN1n2Ysv5gbRmvuypL18PIIacUj?usp=sharing), [presentazione PDF](https://drive.google.com/drive/folders/1-7ZluWSD8bhZZDz8byrghWvQD0pmpA4N?usp=sharing), [tesi](https://drive.google.com/drive/folders/1ajjE0XTD7BA4EU0zRUz-dCPJsVUPuSZ1?usp=sharing)) per prendere confidenza con `RMarkdown`. 
+In [questa cartella](https://github.com/arca-dpss/CorsoRmarkdown/tree/main/Esempi) trovate vari file di esempio ([presentazione HTML](https://github.com/arca-dpss/CorsoRmarkdown/tree/main/Esempi/Presentazione-HTML), [presentazione PDF](https://github.com/arca-dpss/CorsoRmarkdown/tree/main/Esempi/Presentazione-PDF), [tesi](https://github.com/arca-dpss/CorsoRmarkdown/tree/main/Esempi/Tesi)) per prendere confidenza con `RMarkdown`. 
 
 
