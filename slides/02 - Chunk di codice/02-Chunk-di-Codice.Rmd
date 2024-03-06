@@ -9,7 +9,7 @@ output:
     logo: arca_logo.svg
     widescreen: yes
     highlight: haddock
-# knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 lang: it
 ---
 
