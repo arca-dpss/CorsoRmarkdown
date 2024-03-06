@@ -18,7 +18,7 @@ In questa pagina sono presenti tutti i link e il materiale necessario per il cor
 
 ## Il corso
 
-Il corso si svolgerà a Padova dal 15 al 19 maggio:
+Il corso si svolgerà a Padova dall'11 al 15 marzo:
 
 - 11 marzo: 9:15-13:00, Aula 4M di Psico 2
 - 12 marzo: 9:15-13:00, Aula 4M di Psico 2
