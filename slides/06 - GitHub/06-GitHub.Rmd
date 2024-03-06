@@ -7,7 +7,7 @@ output:
     logo: arca_logo.svg
     widescreen: yes
     highlight: kate
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 
 <style>
@@ -339,3 +339,28 @@ knitr::include_graphics("img/commit2.png")
 
 
 Non dimenticate di cliccare anche su Push!
+
+## Tutt'appost?
+
+<br>
+
+```{r out.width="80%"}
+knitr::include_graphics("img/check-commit.png")
+```
+
+## Trovare il link 
+
+```{r out.width="80%"}
+knitr::include_graphics("img/pages.png")
+```
+
+
+## Your turn! 
+
+- Create un account GitHub e attrezzatevi per installare il software sul vostro PC 
+
+- Create un nuovo progetto inizializzato come Git Repository (selezionando la spunta sul `gitignore`)
+
+- Aggiungete almeno un file in HTML (consiglio quarto perché vi permette più interattività in modo più semplice) e create la vostra pagina online
+
+
