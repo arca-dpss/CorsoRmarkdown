@@ -259,7 +259,7 @@ Due file:
 
 In [questa cartella](https://drive.google.com/drive/folders/19F1fhDwih04MeyKP_E4xLsPc0VAw-3co?usp=sharing) vi ho preparato degli esempi di file (tra cui quello per la tesi)
 
-[Qui](https://forms.gle/5PkBkhLMLnkPQSXg6) trovate il questionario da compilare a fine corso per dire se il corso vi è piaciuto
+[Qui](https://forms.gle/VS4RaevZ6XghDCjM9) trovate il questionario da compilare a fine corso per dire se il corso vi è piaciuto
 
 ## Cosa non faremo in questo corso
 

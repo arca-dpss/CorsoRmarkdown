@@ -61,7 +61,7 @@ Per chi fosse interessato, è disponibile anche una breve introduzione al pacche
 
 ## Questionario di fine corso
 
-Non dimenticate di compilare il [questionario di fine corso]( https://forms.gle/5PkBkhLMLnkPQSXg6)!
+Non dimenticate di compilare il [questionario di fine corso](https://forms.gle/VS4RaevZ6XghDCjM9)!
 
 ## File di esempio
 
