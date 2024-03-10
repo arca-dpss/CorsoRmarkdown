@@ -125,7 +125,7 @@ A meno che non venga specificato altrimenti, ogni chunk del documento seguirà l
 
 ## Warning 
 
-L'environment di `R` e l'environment di `RMarkdown` sono due cose dievrse
+L'environment di `R` e l'environment di `RMarkdown` sono due cose diverse
 
 Il fatto che voi vediate degli oggetti nel vostro environment come nell'esempio qui sotto non implica che siano importati automaticamente dentro RMarkdown
 
