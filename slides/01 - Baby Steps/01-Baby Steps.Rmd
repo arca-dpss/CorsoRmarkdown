@@ -220,7 +220,7 @@ Titolo del paragrafo
 
     Muoio senza morire, in questi giorni usati 
 
-```{r, out.width="70%"}
+```{r, out.width="50%"}
 knitr::include_graphics(path = "img/header1.png")
 ```
 
@@ -261,7 +261,7 @@ author: Ottavia M. Epifania
 :::
 
 ::: {style="float: right; width: 50%;"}
-```{r out.width="100%"}
+```{r out.width="120%"}
 knitr::include_graphics(path = "img/numeHeader.png")
 ```
 :::
