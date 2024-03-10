@@ -37,7 +37,6 @@ Ma partiamo dall'inizio:
 02. Chunk di codice: L'essenza di `RMarkdown` va conosciuta nel dettaglio [HTML](slides/02 - Chunk di codice/02-Chunk-di-Codice.html) [PDF](slides/02 - Chunk di codice/02-Chunk-di-Codice.pdf)
 03. Presentazioni in `RMarkdown` [HTML](slides/03- Presentazioni/03-Presentazioni.html) [PDF](slides/03- Presentazioni/03-Presentazioni.pdf)
 04. LaTeX e `knitr`: [PDF](slides/04 - LaTeX-knitr/04-LaTeX-knitr.pdf)
- [PDF](slides/06 - quarto/06-quarto.pdf)
 05. The future is `quarto` [HTML](slides/05 - quarto/05-quarto.html)
 06. Time to go live! Introduzione a [GitHub](https://github.com/) [HTML](slides/06 - GitHub/06-GitHub.hmtl) [PDF](slides/06 - GitHub/06-GitHub.pdf)
 

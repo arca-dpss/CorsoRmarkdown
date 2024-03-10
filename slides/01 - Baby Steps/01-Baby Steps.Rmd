@@ -220,7 +220,7 @@ Titolo del paragrafo
 
     Muoio senza morire, in questi giorni usati 
 
-```{r, out.width="50%"}
+```{r, out.width="70%"}
 knitr::include_graphics(path = "img/header1.png")
 ```
 
@@ -261,7 +261,7 @@ author: Ottavia M. Epifania
 :::
 
 ::: {style="float: right; width: 50%;"}
-```{r out.width="90%"}
+```{r out.width="100%"}
 knitr::include_graphics(path = "img/numeHeader.png")
 ```
 :::
@@ -351,6 +351,7 @@ output:
 </br>
 
 ## Ingrandire e rimpicciolire il testo
+### Valido solo per i pdf
 
 ```{r out.width="40%"}
 knitr::include_graphics("img/fontsize.png")
@@ -379,7 +380,8 @@ Molto semplicemente, si fa precedere il testo da `>`:
 
     Una canzone di Ghali, presentata a Sanremo 2024.
 
-    >  Il prato è verde, più verde, più verde, sempre più verde (sempre più verde). Il cielo è blu, blu, blu, molto più blu (ancora più blu)
+    >  Il prato è verde, più verde, più verde, sempre più verde (sempre più verde). 
+    Il cielo è blu, blu, blu, molto più blu (ancora più blu)
 </div>
 
 <div>
@@ -465,7 +467,8 @@ knitr::include_graphics("img/note.png")
 
     [Parola](url-della-pagina)
     
-    [Tuta Gold](https://youtu.be/Pz168-XMNIk?si=kLpXXP8rJfAj6cMu) è una canzone che parla di una tuta che è gold
+    [Tuta Gold](https://youtu.be/Pz168-XMNIk?si=kLpXXP8rJfAj6cMu) è una canzone che parla di 
+    una tuta che è gold
     
 [Tuta Gold](https://youtu.be/Pz168-XMNIk?si=kLpXXP8rJfAj6cMu) è una canzone che parla di una tuta che è gold
     
@@ -686,7 +689,7 @@ Salviamo il documento con un nome a scelta (e.g., `biblio`) **ma soprattutto** r
 
 `r emoji("red exclamation mark")` `epifania2021implicit` è la "chiave" che ci permette di citare l'articolo nel testo
 
-<font size="3">In fondo al file `# Bibiografia`</font>
+<font size="4">In fondo al file `# Bibliografia`</font>
 
 ## Come citare nel testo
 
@@ -776,7 +779,7 @@ Il comando nel testo:
 knitr::include_graphics("img/cross.png")
 ```
 
-Nella breve lezione su [LaTeX](https://ottaviae.github.io/CorsoRmarkdown/slides/03bis%20-%20LaTeX%20Bis/03bis-LaTeX-bis.pdf) vedremo come usare al meglio e soprattutto in modo flessibile le cross-references
+Nella breve lezione su [LaTeX](https://arca-dpss.github.io/CorsoRmarkdown/slides/04%20-%20LaTeX-knitr/04-LaTeX-knitr.pdf) vedremo come usare al meglio e soprattutto in modo flessibile le cross-references
 
 ## Cross-referencing: La tabella
 
