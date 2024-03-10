@@ -344,7 +344,7 @@ rock
 rock
 ```
 
-Ricodate che una delle righe che volete mostrate è "mangiata" dai nomi delle colonne
+Ricordate che una delle righe che volete mostrate è "mangiata" dai nomi delle colonne
 
 
 
@@ -588,7 +588,6 @@ grafico = ggplot(rock,
        aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
   theme_bw() + theme(legend.position = "none") 
 plotly::ggplotly(grafico)
-
 ```
 ````
 
@@ -599,7 +598,6 @@ grafico = ggplot(rock,
        aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
   theme_bw() + theme(legend.position = "none") 
 grafico
-
 ```
 ````
 
@@ -628,22 +626,22 @@ Vanno usate le funzioni `knitr::is_latex_output()` e `knitr::is_html_output()`, 
 
 `` `r "\u0060r knitr::asis_output(ifelse(knitr::is_html_output(), '<span style='color:red'>parola</span>', '\\color{red} Voglio una frase rossa \\normalcolor'))\u0060"` ``
 
-## Tabelle interattive 
+<!-- ## Tabelle interattive  -->
 
-```{r table-interactive, echo = FALSE, eval = is_html_output()}
-mtcars[1:8, 1:8] %>%
-  kbl() %>%
-  kable_paper(full_width = F, "hover") %>%
-  column_spec(2, color = spec_color(mtcars$mpg[1:8]),
-              link = "https://haozhu233.github.io/kableExtra/") %>%
-  column_spec(6, color = "white",
-              background = spec_color(mtcars$drat[1:8], end = 0.7))
-```
+<!-- ```{r table-interactive, echo = FALSE, eval = is_html_output()} -->
+<!-- mtcars[1:8, 1:8] %>% -->
+<!--   kbl() %>% -->
+<!--   kable_paper(full_width = F, "hover") %>% -->
+<!--   column_spec(2, color = spec_color(mtcars$mpg[1:8]), -->
+<!--               link = "https://haozhu233.github.io/kableExtra/") %>% -->
+<!--   column_spec(6, color = "white", -->
+<!--               background = spec_color(mtcars$drat[1:8], end = 0.7)) -->
+<!-- ``` -->
 
 
 ## Your turn!
 
 - Provate a inserire un grafico interattivo e uno statico, condizionando la loro comparsa al motore di compilazione 
 
-- Rimpiccioilite il testo...sia per HTML sia per PDF!
+- Cambiate il colore del testo...sia per HTML sia per PDF!
 
