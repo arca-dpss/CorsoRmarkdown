@@ -293,7 +293,7 @@ Di default, i risultati vengono mostrati così:
 rock[1:3, ]
 ```
 
-Gli asterischi si possono togliere con l'argomento `comment`, settato uguale a quello che più vi piace:
+I cancelletti si possono togliere con l'argomento `comment`, settato uguale a quello che più vi piace:
 
 ````
 ```{r, comment=" "}`r ''`
