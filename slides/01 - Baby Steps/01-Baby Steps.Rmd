@@ -310,8 +310,9 @@ output:
    number_sections: true
       toc: true
       toc_depth: 1
-  linestretch: 1.5
-  geometry: margin=1in
+linestretch: 1.5
+geometry: margin=1in
+lang: it
 ---  
 ```
 
