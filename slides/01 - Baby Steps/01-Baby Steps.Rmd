@@ -251,8 +251,8 @@ title: "Esempio di File"
 subtitle: Sottotitolo
 date: "5/3/2022"
 author: Ottavia M. Epifania
-  output:
-    pdf_document: 
+output:
+  pdf_document: 
     number_sections: true
 ---
 ```
