@@ -274,8 +274,8 @@ Per aggiungere l'indice, bisogna modificare lo YAML, aggiungendo l'elemento `toc
 ---
 output:
   pdf_document: 
-  number_sections: true
-  toc: true
+    number_sections: true
+toc: true
 ---  
 ```
 
@@ -505,7 +505,11 @@ knitr::include_graphics("img/note.png")
 
 `![Caption](percorso-alla-figura)`
 
-![Prima del corso `RMarkdown`](C:/Users/huawei/OneDrive/Documenti/GitHub/CorsoRmarkdown/slides/01%20-%20Baby%20Steps/img/oldManHappy.jpg)
+```{r, fig.cap="Prima del corso `RMarkdown`", fig.align="center", out.width="50%"}
+knitr::include_graphics("img/oldManHappy.jpg")
+```
+
+<!-- ![Prima del corso `RMarkdown`](img/oldManHappy.jpg) -->
 
 </div>
 
