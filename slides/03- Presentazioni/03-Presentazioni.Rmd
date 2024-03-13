@@ -830,7 +830,7 @@ Nel chunk di codice in cui volete ridurre il font:
 Aggiungere questo chunk all'inizio della presentazione (anche prima del setup chunk)
 
 ````
-```{css, echo=TRUE, eval = FALSE}
+```{css}`r ''`
 pre {
   max-height: 700px;
   overflow-y: auto;
