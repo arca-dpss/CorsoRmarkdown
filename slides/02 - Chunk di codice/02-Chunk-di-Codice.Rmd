@@ -520,7 +520,19 @@ $$\bar{X} = \frac{\displaystyle\sum_{i=1}^{n}x_i}{n} = \frac{`r x`}{`r nrow(mtca
 
 $$z =   \frac{x_i - \bar{X}}{sd}$$
 
+
 - Standardizzate il primo valore della $y$ del vostro dataset e riportate il risultato nell'equazione
+
+```{r}
+data = mtcars
+data$y = data$mpg
+```
+
+
+$$z_i = \frac{x_i - \bar{x} }{sd} = \frac{`r data$y[1] - mean(data$y)`}{`r sd(data$y)`} = `r (data$y[1] - mean(data$y))/sd(data$y)` $$
+
+
+`` `r "$$z_i = \\frac{x_i - \\bar{x}}{sd} = \\frac{\u0060r data$y[1] - mean(data$y)\u0060}{\u0060r sd(data$y)\u0060} = \u0060r (data$y[1] - mean(data$y))/sd(data$y) \u0060$$"` ``
 
 # Saltellando tra HTML e PDF 
 
