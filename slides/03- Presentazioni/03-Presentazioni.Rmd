@@ -2,14 +2,13 @@
 title: "03 - Presentazioni"
 author: "Ottavia M. Epifania"
 date: ''
-#runtime: shiny
 output: 
   ioslides_presentation: 
     logo: arca_logo.svg
     widescreen: yes
     highlight: kate
-    biblio: C:/Users/huawei/OneDrive/Documenti/GitHub/CorsoRmarkdown/biblio/biblio.bib+
-knit: pagedown::chrome_print
+runtime: shiny
+#knit: pagedown::chrome_print
 ---
 
 <style>
@@ -203,6 +202,7 @@ knitr::knit_hooks$set(output = function(x, options) {
   hook_output(x, options)
 })
 library("emoji")
+library(shiny)
 ```
 
 
@@ -628,7 +628,17 @@ ADVANCED
 
 `![Caption](percorso-alla-figura)`
 
-![Come pensavo di preparare il corso](img/expectation.jpg)
+```{r, fig.cap="Come pensavo di preparare il corso", echo =FALSE, eval =TRUE, out.width="70%"}
+knitr::include_graphics("img/expectation.jpg")
+```
+
+
+<!-- ```{r echo=FALSE} -->
+<!-- knitr::include_graphics("slides/03-Presentazioni/img/expectation.jpg") -->
+<!-- ``` -->
+
+
+<!-- ![Come pensavo di preparare il corso](img/expectation.jpg) -->
 
 </div>
 
