@@ -578,7 +578,7 @@ grafico
 ```
 
 
-## Possono stare nello file
+## Possono stare nello stesso file
 
 Pandoc gestisce automaticamente l'output che viene mostrato a seconda del motore di compilazione che viene utilizzato
 
