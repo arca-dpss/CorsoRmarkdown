@@ -282,13 +282,49 @@ format:
 ---
 ````
 
-::: {.layout-ncol=2}
 
-![](img/code.png){width="20%"}
+:::: {.columns}
 
 
-![](img/codeDet.png){width="30%"}
+::: {.column width="50%"}
+
+![](img/code.png){width="100%"}
+
 :::
+
+::: {.column width="50%"}
+
+![](img/codeDet.png){width="100%"}
+
+:::
+
+::::
+
+
+
+## Guarda il codice, metodo 2
+
+
+````
+---
+[...]
+format:
+  html:
+    code-fold: true
+---
+````
+
+```{r}
+#| code-fold: true
+
+library(ggplot2)
+ggplot(mtcars, 
+       aes(x = disp, y = hp, color = mpg, size = mpg)) + geom_point()
+
+
+```
+
+
 
 ## YAML: Si può cambiare tema
 
@@ -504,6 +540,9 @@ head(cars)
 
 ## "Griglie"
 
+
+
+
 ```{r}
 #| echo: false
 #| fig-align: center
@@ -523,13 +562,13 @@ Assume che la lunghezza totale della riga sia 12 e permette di dividere lo spazi
 
 ::: {.g-col-4}
 
-Prima colonna più stretta della seconda
+Prima colonna più stretta della seconda dove parlo del mio grafico
 
 :::
 
 ::: {.g-col-8}
 
-Colonna più larga
+Colonna più larga con il codice per ottenere il grafico
 
 :::
 
@@ -558,7 +597,7 @@ kableExtra::kable(head(rock))
 
 ```{r}
 #| echo: false
-#| out-width: "50%"
+#| out-width: "100%"
 #| fig-align: center
 library(ggplot2)
 ggplot(rock, 

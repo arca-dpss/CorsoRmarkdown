@@ -9,10 +9,11 @@ format:
     toc-title: I miei contenuti
     toc-location: left
     toc-depth: 3
-    code-tools: 
-      source: true
-      toggle: false
-      caption: none
+    code-fold: true
+    # code-tools: 
+      # source: true
+      # toggle: false
+      # caption: none
 editor: source
 lang: it
 ---
@@ -50,14 +51,16 @@ ggplot(rock,
 
 ::: {.g-col-4}
 
-Prima colonna più stretta della seconda
+Prima colonna più stretta della seconda dove parlo del mio grafico
 
 :::
 
 ::: {.g-col-8}
 
 ```{r}
-
+ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_light() + theme(legend.position = "none") 
 ```
 
 
