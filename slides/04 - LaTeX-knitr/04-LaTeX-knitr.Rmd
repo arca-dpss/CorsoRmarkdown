@@ -12,7 +12,7 @@ output:
     fonttheme: serif
     highlight: haddock
 header-includes:
-    - \AtBeginDocument{\title[\LaTeX bis]{04-\LaTeX-`knitr`}}
+    - \AtBeginDocument{\title[\LaTeX ]{04-\LaTeX-`knitr`}}
     - \usepackage{graphicx} 
     - \usepackage{setspace}
     - \usepackage{tabularx}

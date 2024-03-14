@@ -991,7 +991,7 @@ Lo user non sa neanche che esiste
 Aggiungete allo YAML: `runtime: shiny` <font size="3"> su una nuova riga </font> e vedrete che `knit` viene sostituto da `Run Presentation`
 
 
-```{r echo = FALSE, eval=F}
+```{r echo = FALSE, eval=T}
 shiny::shinyApp(
  ui = fluidPage(
   sidebarLayout(
