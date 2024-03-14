@@ -242,7 +242,7 @@ knitr::include_graphics("img/ghMailpwd.png")
 ```
 
 
-Risolvere i CAPTCHA e finalizzare il 
+Risolvere i CAPTCHA e finalizzare la procedura
 
 ## Installare GitHub Desktop 
 
@@ -275,8 +275,6 @@ knitr::include_graphics("img/check.png")
 
 # Gestire le repository
 
-## Pubblicare una repository già esistente
-
 ## Creare una nuova repository 
 
 Sempre attraverso la creazione dei progetti 
@@ -301,17 +299,13 @@ Questo è il file che gestisce tutte le vostre pagine
 Funziona come un indice in cui potete scrivere una presentazione della vostra repository e potete linkare tutte le pagine (HTML o PDF) in modo che sia dei link condivisibili 
 </div>
 
-::: {style="float: left; width: 50%;"}
-```{r, out.width="100%"}
+
+```{r, out.height="90%"}
 knitr::include_graphics(path = "img/readme.png")
 ```
-:::
-
-::: {style="float: right; width: 50%;"}
-```{r, out.width="100%"}
+```{r, out.height="80%"}
 knitr::include_graphics(path = "img/site.png")
 ```
-:::
 
 ## I link 
 
