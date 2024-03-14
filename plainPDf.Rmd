@@ -1,16 +1,46 @@
 ---
 title: "Untitled"
-output:
-  html_document:
-    toc: true
-    df_print: paged
-  pdf_document:
-    number_sections: true
-    toc: true
+# output:
+#   # html_document:
+#   #   toc: true
+#   #   df_print: paged
+#   pdf_document:
+#     number_sections: true
+#     toc: true
+output:  
+  bookdown::pdf_document2:    
+  keep_tex: yes    
+  number_sections: yes    
+  toc: yes
 date: "2023-02-19"
 linestretch: 1.5
 geometry: margin=1.5in
 ---
+
+# Prova immagine 
+
+![foto](man/arca_logo.png)
+
+
+
+```{r, echo = FALSE, eval = TRUE}
+x = mean(mtcars$mpg)
+```
+
+La media delle mpg è `r x`
+
+
+```{r echo = F}
+data = mtcars
+data$y = data$mpg
+
+```
+
+
+$$\bar{x} = \frac{\sum x_i}{n} =  \frac{`r sum(mtcars$mpg)`}{`r nrow(mtcars)`} $$
+
+
+$$z_i = \frac{x_i - \bar{x} }{sd} = \frac{`r data$y[1] - mean(data$y)`}{`r sd(data$y)`} = `r (data$y[1] - mean(data$y))/sd(data$y) ` $$
 
 # Header 1 
 
