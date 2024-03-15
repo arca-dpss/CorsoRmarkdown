@@ -7,12 +7,14 @@ date: 'Corsi `ARCA`'
 institute: "ottavia.epifania@unipd.it"
 output: 
   beamer_presentation: 
-    theme: metropolis
+    theme: CambridgeUS
     colortheme: beaver
     fonttheme: serif
     highlight: haddock
 header-includes:
     - \AtBeginDocument{\title[\LaTeX ]{04-\LaTeX-`knitr`}}
+    - \AtBeginDocument{\author[Ottavia M. Epifania]{Ottavia M. Epifania \\ Università di Padova}}
+    - \AtBeginDocument{\institute[]{ottavia.epifania@unipd.it}}
     - \usepackage{graphicx} 
     - \usepackage{setspace}
     - \usepackage{tabularx}
