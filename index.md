@@ -38,7 +38,7 @@ Ma partiamo dall'inizio:
 03. Presentazioni in `RMarkdown` [HTML](slides/03- Presentazioni/03-Presentazioni.html) [PDF](slides/03- Presentazioni/03-Presentazioni.pdf)
 04. LaTeX e `knitr`: [PDF](slides/04 - LaTeX-knitr/04-LaTeX-knitr.pdf)
 05. The future is `quarto` [HTML](slides/05 - quarto/05-quarto.html)
-06. Time to go live! Introduzione a [GitHub](https://github.com/) [HTML](slides/06 - GitHub/06-GitHub/06-GitHub.hmtl) [PDF](slides/06 - GitHub/06-GitHub/06-GitHub.pdf)
+06. Time to go live! Introduzione a [GitHub](https://github.com/) [HTML](slides/06 - GitHub/06-GitHub.html) [PDF](slides/06 - GitHub/06-GitHub.pdf)
 
 
 Per chi fosse interessato, è disponibile anche una breve introduzione al pacchetto [`xaringan`](https://cran.r-project.org/web/packages/xaringan/index.html) [HTML](slides/07 - xaringan/07-xaringan.html) [PDF](slides/07 - xaringan/07-xaringan.pdf)
