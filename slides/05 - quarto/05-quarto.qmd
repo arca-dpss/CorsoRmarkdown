@@ -474,13 +474,17 @@ ggplot(rock,
 
 ## `kable`
 
-Qui c'è @tab-esempio
+````
+Qui c'è @tbl-esempio
+````
+Qui c'è @tbl-esempio
+
 
 ```{r}
 #| tbl-cap-location: top
 #| tbl-cap: Una tabella di esempio
 #| tbl-subcap: per far vedere come funzionano
-#| label: tab-esempio
+#| label: tbl-esempio
 
 kableExtra::kable(mtcars[1:6, ])
 ```
