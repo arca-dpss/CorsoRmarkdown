@@ -7,8 +7,8 @@ date: 'Corsi `ARCA`'
 institute: "ottavia.epifania@unipd.it"
 output: 
   beamer_presentation: 
-    theme: CambridgeUS
-    colortheme: beaver
+    theme: Montpellier
+    colortheme: dove
     fonttheme: serif
     highlight: haddock
 header-includes:
