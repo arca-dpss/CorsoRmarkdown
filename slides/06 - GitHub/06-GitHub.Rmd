@@ -283,9 +283,34 @@ Sempre attraverso la creazione dei progetti
 knitr::include_graphics("img/newRepo.png")
 ```
 
+## "Clonare" una repository esistente I {.build}
+
+<div>
+Si fa tutto attraverso GitHub desktop (il sofwtware con il gattino viola)
+
+File $\rightarrow$ **Add Local Repository** $\rightarrow$ scegliere il percorso della cartella che si vuole pubblicare su GitHub 
+
+</div>
+
+
+```{r out.width="80%"}
+knitr::include_graphics("img/banner-git.png")
+```
+
+
+## "Clonare" una repository esistente II {.build}
+
+Selezionare **create a repository** 
+
+```{r}
+knitr::include_graphics("img/clone-repo.png")
+```
+
+
+
 ## La repository deve essere pubblica
 
-```{r out.width="70%"}
+```{r out.width="90%"}
 knitr::include_graphics("img/public.png")
 ```
 
@@ -316,6 +341,15 @@ L'unica differenza consiste nel fatto che si linka il percorso del file che vogl
 Ad esempio, voglio che la mia pagina linki a un file HTML che si chiama `my_file.html` ed è contenuto nella cartella `files`: 
 
         [La mia presentazione](files/my_file.html)
+        
+        
+## Creare le pagine 
+
+```{r out.width="70%"}
+knitr::include_graphics("img/pages-git.png")
+```
+
+
         
 ## `commit` + `push`
 

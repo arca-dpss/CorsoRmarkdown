@@ -7,8 +7,8 @@ output:
     logo: arca_logo.svg
     widescreen: yes
     highlight: kate
-runtime: shiny
-#knit: pagedown::chrome_print
+# runtime: shiny
+knit: pagedown::chrome_print
 ---
 
 <style>
@@ -214,7 +214,7 @@ library(shiny)
 
 ##
 
-```{r, echo=FALSE, eval=TRUE}
+```{r, echo=TRUE, eval=FALSE,class.output="scroll-100"}
 shiny::shinyApp(
   ui <- fluidPage(
 
@@ -991,7 +991,7 @@ Lo user non sa neanche che esiste
 Aggiungete allo YAML: `runtime: shiny` <font size="3"> su una nuova riga </font> e vedrete che `knit` viene sostituto da `Run Presentation`
 
 
-```{r echo = FALSE, eval=T}
+```{r echo = FALSE, eval=F}
 shiny::shinyApp(
  ui = fluidPage(
   sidebarLayout(
