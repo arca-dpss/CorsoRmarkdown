@@ -101,6 +101,18 @@ Riaprite tutto e fate correre di nuovo il `File-Check.Rmd`
 Se non dovesse funzionare, reinstallate il pacchetto `xfun` (`install.packages("xfun")`)
 
 
+## Se anche così non dovesse funzionare....
+
+<br> 
+
+- Nella cartella dove avete il File-check.Rmd si dovrebbe essere creato un file con estensione `.tex`
+
+- Aprite il file `.tex` con MikTek e provate a premere il play verde in alto 
+
+- Probabilmente non compilerà il file, ma vi proporrà di installare una serie di pacchetti, lasciatelo fare!
+
+- Riprovate a compilare il File-check.Rmd
+
 # `RMarkdown`
 
 ## Di cosa stiamo parlando? {.build}
