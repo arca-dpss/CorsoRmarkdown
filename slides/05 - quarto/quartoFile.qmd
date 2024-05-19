@@ -4,16 +4,14 @@ author: "Ciccio Pasticcio"
 date: today
 format: 
   html:
-    theme: minty
     toc: true
     toc-title: I miei contenuti
     toc-location: left
     toc-depth: 3
-    code-fold: true
-    # code-tools: 
-      # source: true
-      # toggle: false
-      # caption: none
+    code-tools: 
+      source: true
+      toggle: false
+      caption: none
 editor: source
 lang: it
 ---
