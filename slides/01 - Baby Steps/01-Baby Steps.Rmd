@@ -68,7 +68,7 @@ Come prima cosa, appare questo:
 ---
 title: "Esempio di File di testo"
 author: "Ottavia M. Epifania"
-date: "19/02/2023"
+date: "19/05/2024"
 output: html_document
 ---
 ```
@@ -130,7 +130,7 @@ Nel caso abbiate seguito la seconda strada, viene modificato lo YAML del file:
 ---
 title: "Esempio di File di testo"
 author: "Ottavia M. Epifania"
-date: "5/3/2022"
+date: "19/5/2024"
 output: 
   pdf_document: default
   html_document: default
@@ -154,7 +154,7 @@ Per ora, aggiungiamo un sottotitolo:
 title: "Esempio di File di testo"
 subititle: "Ecco il sottotitolo"
 author: "Ottavia M. Epifania"
-date: "5/3/2022"
+date: "19/5/2024"
 output: 
   pdf_document: default
   html_document: default
@@ -249,7 +249,7 @@ Per aggiungere i numeri delle sezioni, basta aggiungere allo YAML: `number_secti
 ---
 title: "Esempio di File"
 subtitle: Sottotitolo
-date: "5/3/2022"
+date: "19/5/2024"
 author: Ottavia M. Epifania
 output:
   pdf_document: 
@@ -387,7 +387,7 @@ Molto semplicemente, si fa precedere il testo da `>`:
 
 <div>
 
-```{r, out.width="80%"}
+```{r, out.width="100%"}
 knitr::include_graphics(path = "img/block.png")
 ```
 
@@ -485,7 +485,6 @@ knitr::include_graphics("img/note.png")
 [ADAVANCED]{style="color:#FF0000"}
 :::
 
--   Inserire una list a scelta (ordered o unordered) in un block quote
 -   Mettere due note a piè di pagina
 - In una delle due note metter un link a una pagina wikipedia connessa al vostro dataset
 
