@@ -7,8 +7,8 @@ date: 'Corsi `ARCA`'
 institute: "ottavia.epifania@unipd.it"
 output: 
   beamer_presentation: 
-    theme: Montpellier
-    colortheme: dove
+    theme: CambridgeUS
+    colortheme: beaver
     fonttheme: serif
     highlight: haddock
 header-includes:
@@ -347,7 +347,7 @@ Valgono i comandi che abbiamo già visto [\textcolor{blue}{qui}](https://ottavia
 
 ## Cambiare la bibliografia
 
-\small
+\footnotesize
 
 ```{tex eval = FALSE}
 output:
@@ -448,7 +448,7 @@ output:
     fonttheme: serif
     highlight: haddock
 header-includes:
-    - \AtBeginDocument{\title[\LaTeX bis]{04-\LaTeX-`knitr`}}
+    - \AtBeginDocument{\title[\LaTeX]{04-\LaTeX-`knitr`}}
     - \usepackage{graphicx} 
     - \usepackage{setspace}
     - \usepackage{tabularx}
@@ -561,7 +561,7 @@ head(cars)
 
 - Create un'altra slide con due colonne, in una colonna un'immagine, nell'altra testo 
 
-. Un'altra slide con due colonne, in una un grafico, nel'altra testo
+- Un'altra slide con due colonne, in una un grafico, nel'altra testo
 
 ## Testo incrementale
 
