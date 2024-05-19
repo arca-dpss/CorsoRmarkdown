@@ -110,7 +110,7 @@ Stessa cosa ma più schematica disponibile  [qui](https://www.rstudio.com/wp-con
 ## Setup chunk {.build}
 
 <div>
-Qui vanno specificate tutte le opzioni di default che vogliamo applicare al nostro documento, i pacchetti che pensiamo di usare per le nostre analisi, i dati, gli environment (per fare prima) eccetera. 
+Qui vanno specificate tutte le opzioni di default che vogliamo applicare al nostro documento, i pacchetti che pensiamo di usare per le nostre analisi, i data, gli environment (per fare prima) eccetera. 
 </div>
 
 <div>
@@ -165,10 +165,10 @@ Un'altra opzione è di importare l'environment salvato con il comando `load()`
 
 ```{r eval = FALSE, echo = TRUE}
 data(nome_dataset)
-dati = nome_dataset
+data = nome_dataset
 ```
 
-- Create un nuovo chunk dove esplorate il dataset (`head(dati)`)
+- Create un nuovo chunk dove esplorate il dataset (`head(data)`)
 
 <div align="center">
 ADVANCED
@@ -351,7 +351,7 @@ Ricordate che una delle righe che volete mostrate è "mangiata" dai nomi delle c
 
 ## Your turn!
 
-- Create un nuovo chunk per il summary dei dati `summary(dati)` **senza**
+- Create un nuovo chunk per il summary dei data `summary(data)` **senza**
  codice e con "NA" al posto degli hashtag nell'output
  - Nuovo chunk dove eseguite il codice del vostro dataset che trovate [qui](https://ottaviae.github.io/CorsoRmarkdown/Datasets-Codici.html) (non fate la regressione e il grafico) **ma non mostrate né il codice né i risultati**
 - Nuovo chunk dove eseguite il codice del grafico (`plot(data$y ~ data$x)`) **senza** codice
@@ -487,7 +487,7 @@ ADVANCED
 </div>
 
 
-- Tabella di model comparison con modello nullo `m0` (`m0 = lm(y ~ 1, data = dati)`)
+- Tabella di model comparison con modello nullo `m0` (`m0 = lm(y ~ 1, data = data)`)
 
 ## Codice (e risultati) nel testo
 
@@ -637,6 +637,10 @@ Vanno usate le funzioni `knitr::is_latex_output()` e `knitr::is_html_output()`, 
 - Va definito l'output `asis`
 
 `` `r "\u0060r knitr::asis_output(ifelse(knitr::is_html_output(), '<span style='color:red'>parola</span>', '\\color{red} Voglio una frase rossa \\normalcolor'))\u0060"` ``
+
+<br>
+
+N.B.: Nel codice riportato nella slide, i simboli ' vanno sostituiti con le virgolette " e vanno messi due backward slash prima di color `\\color`
 
 <!-- ## Tabelle interattive  -->
 
